@@ -1,11 +1,13 @@
 import React from "react";
-import {Menu, PageHeader} from 'antd';
+import {Menu, Typography} from 'antd';
 import {HomeOutlined, FileTextOutlined, TrophyOutlined, DatabaseOutlined, FireOutlined} from '@ant-design/icons';
 import OtherPage from "./OtherPage";
 import ProjectPage from "./ProjectPage";
 import HomePage from "./HomePage";
 import ResumePage from "./ResumePage";
 import DescriptionPage from "./DescriptionPage";
+
+const {Title} = Typography;
 
 export default class LandingPage extends React.Component {
 
@@ -42,7 +44,7 @@ export default class LandingPage extends React.Component {
         }
         return (
             <div>
-            <PageHeader title = "Isaac Spanier"></PageHeader>
+            <Title level = {2}>Isaac Spanier</Title>
             
             <Menu onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
                 <Menu.Item key = "home">
