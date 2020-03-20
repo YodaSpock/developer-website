@@ -1,0 +1,46 @@
+.profile {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    object-fit: none;
+    object-position: 50% 100%;
+}
+
+.landscape {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center -175px;
+
+}
+
+.billiardsBanner {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center -475px;
+}
+
+.banner-title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+    &-name {
+        background-color: lightblue;
+    }
+    &-title {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ant-typography {
+        margin-bottom: 0px;
+    }
+} 
