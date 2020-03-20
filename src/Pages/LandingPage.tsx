@@ -1,13 +1,12 @@
 import React from "react";
-import {Menu, Typography} from 'antd';
+import {Menu} from 'antd';
 import {HomeOutlined, FileTextOutlined, TrophyOutlined, DatabaseOutlined, FireOutlined} from '@ant-design/icons';
 import OtherPage from "./OtherPage";
 import ProjectPage from "./ProjectPage";
 import HomePage from "./HomePage";
 import ResumePage from "./ResumePage";
 import DescriptionPage from "./DescriptionPage";
-
-const {Title} = Typography;
+import background from '../Images/background.jpg';
 
 export default class LandingPage extends React.Component {
 
@@ -44,9 +43,7 @@ export default class LandingPage extends React.Component {
         }
         return (
             <div>
-            <Title level = {2}>Isaac Spanier</Title>
-            
-            <Menu onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
+            <Menu onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal" style = {{marginLeft: "25%", marginRight: "25%"}}>
                 <Menu.Item key = "home">
                 Home <HomeOutlined/>
                 </Menu.Item>
@@ -63,6 +60,7 @@ export default class LandingPage extends React.Component {
                 Other Interests <FireOutlined />
                 </Menu.Item>
             </Menu>
+            <img src = {background} alt = {"Background"} style = {{height: "10%", width: "100%"}}/>
             {section}
             </div>
         )
