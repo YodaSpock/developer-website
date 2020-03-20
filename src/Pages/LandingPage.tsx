@@ -1,13 +1,14 @@
 import React from "react";
-import {Menu, Typography} from 'antd';
+import {Menu} from 'antd';
 import {HomeOutlined, FileTextOutlined, TrophyOutlined, DatabaseOutlined, FireOutlined} from '@ant-design/icons';
 import OtherPage from "./OtherPage";
 import ProjectPage from "./ProjectPage";
 import HomePage from "./HomePage";
 import ResumePage from "./ResumePage";
 import DescriptionPage from "./DescriptionPage";
-
-const {Title} = Typography;
+import {Row, Col} from 'antd';
+//import billiardsBanner from '../Images/pool.jpg';
+import "../Styles/Image.css";
 
 export default class LandingPage extends React.Component {
 
@@ -44,25 +45,28 @@ export default class LandingPage extends React.Component {
         }
         return (
             <div>
-            <Title level = {2}>Isaac Spanier</Title>
+            <Row>
+                <Col style = {{backgroundColor: "lightblue"}}>
+                    <Menu onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal" style = {{marginLeft: "25%", marginRight: "25%"}}>
+                    <Menu.Item key = "home">
+                    Home <HomeOutlined/>
+                    </Menu.Item>
+                    <Menu.Item key = "resume">
+                    Resume <FileTextOutlined/>
+                    </Menu.Item>
+                    <Menu.Item key = "descriptions">
+                    Project Descriptions <DatabaseOutlined />
+                    </Menu.Item>
+                    <Menu.Item key = "projects">
+                    Fun Projects <TrophyOutlined/>
+                    </Menu.Item>
+                    <Menu.Item key = "other">
+                    Other Interests <FireOutlined />
+                    </Menu.Item>
+                    </Menu>
+                </Col>
+            </Row>
             
-            <Menu onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
-                <Menu.Item key = "home">
-                Home <HomeOutlined/>
-                </Menu.Item>
-                <Menu.Item key = "resume">
-                Resume <FileTextOutlined/>
-                </Menu.Item>
-                <Menu.Item key = "descriptions">
-                Project Descriptions <DatabaseOutlined />
-                </Menu.Item>
-                <Menu.Item key = "projects">
-                Fun Projects <TrophyOutlined/>
-                </Menu.Item>
-                <Menu.Item key = "other">
-                Other Interests <FireOutlined />
-                </Menu.Item>
-            </Menu>
             {section}
             </div>
         )

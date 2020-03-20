@@ -1,0 +1,28 @@
+.profile{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    object-fit: none;
+    object-position: 50% 100%;
+}
+
+.landscape{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center -175px;
+
+}
+
+.billiardsBanner{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center -475px;
+}
