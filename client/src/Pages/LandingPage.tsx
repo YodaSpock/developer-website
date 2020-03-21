@@ -16,6 +16,8 @@ export default class LandingPage extends React.Component {
         current: "home",
     };
 
+    //test
+
     handleClick = (e: any) => {
         console.log('click ', e);
         this.setState({
