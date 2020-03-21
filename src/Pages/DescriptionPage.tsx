@@ -7,37 +7,47 @@ export default class DescriptionPage extends React.Component {
     //<img src = {chess} alt = {"Chess Game"} style = {{height: 300, width: 300}}/>
     render() {
         return (
-            <div>
+            <div style = {{backgroundColor: "gray"}}>
                 <Row>
-                    <Col span = {12} style = {{backgroundColor: "lightblue"}}>
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
+                        
+                    </Col>
+                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
                         Description Here
                     </Col>
-                    <Col span = {12} style = {{backgroundColor: "grey"}}>
-                        Picture Here
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
+                        
                     </Col>
                 </Row>
                 <Row>
-                    <Col span = {12} style = {{backgroundColor: "grey"}}>
-                        Picture Here
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
+                       
                     </Col>
-                    <Col span = {12} style = {{backgroundColor: "lightblue"}}>
+                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
                         Description Here
+                    </Col>
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span = {12} style = {{backgroundColor: "lightblue"}}>
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
+                        
+                    </Col>
+                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
                         Description Here
                     </Col>
-                    <Col span = {12} style = {{backgroundColor: "grey"}}>
-                        Picture Here
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
+                        
                     </Col>
                 </Row>
                 <Row>
-                    <Col span = {12} style = {{backgroundColor: "grey"}}>
-                        Picture Here
+                    <Col span = {2} style = {{ padding: "3.5%"}}>
+                        
                     </Col>
-                    <Col span = {12} style = {{backgroundColor: "lightblue"}}>
+                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
                         Description Here
+                    </Col>
+                    <Col span = {2} style = {{padding: "3.5%"}}>
                     </Col>
                 </Row>
            </div>

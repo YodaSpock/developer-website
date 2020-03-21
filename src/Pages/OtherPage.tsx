@@ -5,7 +5,10 @@ export default class OtherPage extends React.Component {
     render() {
         return (
            <div>
-               DON'T TRY IT 
+               STAR WARS <br/>
+               BILLIARDS <br/>
+               CHOIR <br/>
+               OTHER STUFF <br/>
            </div>
         )
     }
