@@ -21,7 +21,6 @@ export default class LandingPage extends React.Component {
         this.setState({
           current: e.key,
         });
-        //console.log("e.key", e.key);
       };
 
     render() {
@@ -48,12 +47,12 @@ export default class LandingPage extends React.Component {
                 
             <Row className = "banner-name">
                 <Col>
-                    <Title className ="banner-title">Isaac J Spanier</Title>
+                    <Title style = {{color: "#1890FF"}} className ="banner-title">Isaac J Spanier</Title>
                 </Col>
             </Row>
-            <Row>
-                <Col style = {{backgroundColor: "lightblue"}}>
-                    <Menu onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal" style = {{backgroundColor: "lightblue", marginLeft: "25%", marginRight: "25%"}}>
+            <Row className = "menu-row">
+                <Col>
+                    <Menu className = "menu-bar" style = {{textAlign: "center", padding: "auto"}}onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
                         <Menu.Item key = "home">
                         Home <HomeOutlined/>
                         </Menu.Item>

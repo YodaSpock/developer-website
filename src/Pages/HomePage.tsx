@@ -2,6 +2,7 @@ import React from "react";
 import {GithubFilled, LinkedinFilled} from '@ant-design/icons';
 import profile from '../Images/profile.jpg';
 import {Row, Col} from 'antd';
+
 export default class HomePage extends React.Component {
 
     render() {
