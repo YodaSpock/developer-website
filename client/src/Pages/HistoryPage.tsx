@@ -1,55 +1,28 @@
 import React from "react";
-import {Row, Col} from 'antd';
-//import chess from '../Images/chess.jpg';
+import {Steps, Popover} from 'antd';
 
+const {Step} = Steps;
 export default class HistoryPage extends React.Component {
 
-    //<img src = {chess} alt = {"Chess Game"} style = {{height: 300, width: 300}}/>
+    state = {
+        timelineDate: 0,
+    }
+
+    onTimelineChange = (timelineDate: any) => {
+        console.log('onChange:', timelineDate);
+        this.setState({timelineDate});
+    }
+
+    //Change this to timeline either bookmarked one or the antd 
     render() {
+        const {timelineDate} = this.state;
         return (
-            <div style = {{backgroundColor: "gray"}}>
-                <Row>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                        
-                    </Col>
-                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
-                        Description Here
-                    </Col>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                        
-                    </Col>
-                </Row>
-                <Row>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                       
-                    </Col>
-                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
-                        Description Here
-                    </Col>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                        
-                    </Col>
-                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
-                        Description Here
-                    </Col>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                        
-                    </Col>
-                </Row>
-                <Row>
-                    <Col span = {2} style = {{ padding: "3.5%"}}>
-                        
-                    </Col>
-                    <Col span = {20} style = {{backgroundColor: "lightgray", padding: "3.5%"}}>
-                        Description Here
-                    </Col>
-                    <Col span = {2} style = {{padding: "3.5%"}}>
-                    </Col>
-                </Row>
+            <div >
+                <Steps current={timelineDate} onChange={this.onTimelineChange}>
+                    <Step title="August 2016" description="First Semester at ISU" />
+                    <Step title="Summer 2019" description="BuilderTrend Intership" />
+                    <Step title="May 2020" description="Graduated College" />
+                </Steps>
            </div>
         )
     }
