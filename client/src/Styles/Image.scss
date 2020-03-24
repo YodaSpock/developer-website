@@ -22,7 +22,7 @@
 
 .banner {
     &-name {
-        background-color: #18FFFA;
+        background-color: #0C2340;
         .ant-typography {
             margin-bottom: 0px;
         }
@@ -36,12 +36,23 @@
 .menu {
     &-row{
         .ant-menu{
-            background-color: #18FFFA;
+            background-color: #0C2340;
+            color: white;
         }
+        
     }
     &-bar{
         //Not doing anything
         margin: auto;
+        .ant-menu-item {
+            .ant-menu-item-active{
+                color: #C41E3A;
+            }
+            
+            .ant-menu-item-selected{
+                color: #C41E3A;
+            }
+        }
     }
     
 }
