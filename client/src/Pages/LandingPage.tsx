@@ -1,13 +1,12 @@
 import React from "react";
 import {Menu, Typography} from 'antd';
-import {HomeOutlined, FileTextOutlined, TrophyOutlined, DatabaseOutlined, FireOutlined} from '@ant-design/icons';
+import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined} from '@ant-design/icons';
 import OtherPage from "./OtherPage";
-import ProjectPage from "./ProjectPage";
+import HistoryPage from "./HistoryPage";
 import HomePage from "./HomePage";
 import ResumePage from "./ResumePage";
-import DescriptionPage from "./DescriptionPage";
+import ProjectPage from "./ProjectPage";
 import {Row, Col} from 'antd';
-//import billiardsBanner from '../Images/pool.jpg';
 import "../Styles/Image.scss";
 const {Title} = Typography;
 export default class LandingPage extends React.Component {
@@ -34,11 +33,11 @@ export default class LandingPage extends React.Component {
             case "resume":
                 section = <ResumePage/>;
                 break;
-            case "descriptions":
-                section = <DescriptionPage/>;
-                break;
-            case "projects":    
+            case "projects":
                 section = <ProjectPage/>;
+                break;
+            case "history":    
+                section = <HistoryPage/>;
                 break;
             case "other":
                 section = <OtherPage/>;
@@ -61,14 +60,14 @@ export default class LandingPage extends React.Component {
                         <Menu.Item key = "resume">
                         Resume <FileTextOutlined/>
                         </Menu.Item>
-                        <Menu.Item key = "descriptions">
-                        Project Descriptions <DatabaseOutlined />
+                        <Menu.Item key = "history">
+                        Project History <LaptopOutlined />
                         </Menu.Item>
                         <Menu.Item key = "projects">
-                        Fun Projects <TrophyOutlined/>
+                        Side Projects <ExperimentOutlined/>
                         </Menu.Item>
                         <Menu.Item key = "other">
-                        Other Interests<FireOutlined/>
+                        Other Interests <PictureOutlined/>
                         </Menu.Item>
                     </Menu>
                     

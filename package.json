@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/YodaSpock/developer-website/issues"
   },
-  "homepage": "https://github.com/YodaSpock/developer-website#readme"
+  "homepage": "https://github.com/YodaSpock/developer-website#readme",
+  "dependencies": {}
 }
