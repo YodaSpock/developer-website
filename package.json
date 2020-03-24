@@ -20,5 +20,8 @@
     "url": "https://github.com/YodaSpock/developer-website/issues"
   },
   "homepage": "https://github.com/YodaSpock/developer-website#readme",
-  "dependencies": {}
+  "dependencies": {
+    "react-easy-emoji": "^1.3.0",
+    "vertical-timeline-component-for-react": "^1.0.6"
+  }
 }

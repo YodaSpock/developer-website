@@ -17,7 +17,7 @@ export default class LandingPage extends React.Component {
 
     //test
 
-    handleClick = (e: any) => {
+    handleClick = (e) => {
         console.log('click ', e);
         this.setState({
           current: e.key,
@@ -42,6 +42,8 @@ export default class LandingPage extends React.Component {
             case "other":
                 section = <OtherPage/>;
                 break;
+            default:
+                section = <HomePage/>;
         }
         return (
             <div>
@@ -61,7 +63,7 @@ export default class LandingPage extends React.Component {
                         Resume <FileTextOutlined/>
                         </Menu.Item>
                         <Menu.Item key = "history">
-                        Project History <LaptopOutlined />
+                        Work History <LaptopOutlined />
                         </Menu.Item>
                         <Menu.Item key = "projects">
                         Side Projects <ExperimentOutlined/>
