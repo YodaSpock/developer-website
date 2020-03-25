@@ -1,7 +1,7 @@
 import React from "react";
 import resume from '../Images/resume1.jpg';
 
-export default class LandingPage extends React.Component {
+export default class ResumePage extends React.Component {
 
     render() {
         return (

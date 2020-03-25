@@ -1,15 +1,12 @@
 import React from "react";
 import {Menu, Typography} from 'antd';
 import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined} from '@ant-design/icons';
-import OtherPage from "./OtherPage";
-import HistoryPage from "./HistoryPage";
-import HomePage from "./HomePage";
-import ResumePage from "./ResumePage";
-import ProjectPage from "./ProjectPage";
+import {Link} from 'react-router-dom';
 import {Row, Col} from 'antd';
 import "../Styles/Image.scss";
+
 const {Title} = Typography;
-export default class LandingPage extends React.Component {
+export default class NavBar extends React.Component {
 
     state = {
         current: "home",
@@ -24,27 +21,7 @@ export default class LandingPage extends React.Component {
         });
       };
 
-    render() {
-        let section; 
-        switch(this.state.current){
-            case "home":
-                section = <HomePage/>;
-                break;
-            case "resume":
-                section = <ResumePage/>;
-                break;
-            case "projects":
-                section = <ProjectPage/>;
-                break;
-            case "history":    
-                section = <HistoryPage/>;
-                break;
-            case "other":
-                section = <OtherPage/>;
-                break;
-            default:
-                section = <HomePage/>;
-        }
+      render() {
         return (
             <div>
                 
@@ -58,24 +35,28 @@ export default class LandingPage extends React.Component {
                     <Menu className = "menu-bar" style = {{textAlign: "center", padding: "auto"}}onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
                         <Menu.Item key = "home">
                         Home <HomeOutlined/>
+                        <Link to="/"/>
                         </Menu.Item>
                         <Menu.Item key = "resume">
                         Resume <FileTextOutlined/>
+                        <Link to="/resume"/>
                         </Menu.Item>
                         <Menu.Item key = "history">
                         Work History <LaptopOutlined />
+                        <Link to="/history"/>
                         </Menu.Item>
                         <Menu.Item key = "projects">
                         Side Projects <ExperimentOutlined/>
+                        <Link to="/projects"/>
                         </Menu.Item>
                         <Menu.Item key = "other">
                         Other Interests <PictureOutlined/>
+                        <Link to="/other"/>
                         </Menu.Item>
                     </Menu>
-                    
                 </Col>
             </Row>
-            {section}
+            {console.log(this.state.current)}
             </div>
         )
     }
