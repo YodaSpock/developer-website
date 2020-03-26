@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Square.scss"
 import WhiteRook from './ChessPieces/WhiteRook.png';
+import BlackRook from './ChessPieces/BlackRook.png';
 
 export default class Square extends React.Component{
     state = {}
@@ -24,7 +25,7 @@ export default class Square extends React.Component{
         return(
             <div className ={squareName}>
                 <div className = "content">
-                    <img src = {WhiteRook} alt = {"White Rook"} className = "chessPiece" />
+                    <img src = {BlackRook} alt = {"White Rook"} className = "chessPiece" />
                 </div>
             </div>
         )

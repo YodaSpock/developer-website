@@ -16,7 +16,7 @@
 }
 
 .square-black{ 
-    background-color: black;
+    background-color: darkgray;
     border: 1px solid black;
     max-width: 80px;
     position: relative;
@@ -35,5 +35,7 @@
 }
 
 .chessPiece{
-    align-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
