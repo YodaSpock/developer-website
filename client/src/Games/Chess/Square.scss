@@ -27,8 +27,13 @@
         height:100%;
     }
     &:after {
-        content: '';
+        content: "";
+        align-content: center;
         display: block;
         padding-top: calc(100% * 1);
     }
+}
+
+.chessPiece{
+    align-content: center;
 }
