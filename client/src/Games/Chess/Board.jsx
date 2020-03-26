@@ -5,46 +5,12 @@ import {Row, Col} from 'antd'
 
 export default class Board extends React.Component{
     state = {}
-    
 
-    convertAlpha(x){
-        var result = 'a';
-        switch(x){
-            case 1:
-                result = "a";
-                break;
-            case 2:
-                result = "b";
-                break;
-            case 3:
-                result = "c";
-                break;
-            case 4:
-                result = "d";
-                break;
-            case 5:
-                result = "e";
-                break;
-            case 6:
-                result = "f";
-                break;
-            case 7:
-                result = "g";
-                break;
-            case 8:
-                result = "h";
-                break;
-            default:
-                result = "a";
-        }
-        return result;
-    }
-   
     render(){
         return(
             <Row>
-                <Col span = {6}/>
-                <Col span = {12}>
+                <Col span = {7}/>
+                <Col span = {10}>
                     <Row>
                         <Col>
                             <Square isBlack = "false" column = "a" row = "8"/>
@@ -254,7 +220,7 @@ export default class Board extends React.Component{
                         </Col>
                     </Row>
                 </Col>
-                <Col span = {6}/>
+                <Col span = {7}/>
             </Row>
         )
     }
