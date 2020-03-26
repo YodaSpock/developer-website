@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Square.scss"
 
 export default class Square extends React.Component{
     state = {}
@@ -6,7 +7,6 @@ export default class Square extends React.Component{
     handleClick = () =>{
 
     }
-    
     render(){
 
         const{
@@ -16,7 +16,9 @@ export default class Square extends React.Component{
         } = this.props
 
         return(
-        <div>{isBlack} {column} {row} </div>
+            <div className = "square">
+                <div className = "content">{column}{row} {isBlack}</div>
+            </div>
         )
     }
 }
