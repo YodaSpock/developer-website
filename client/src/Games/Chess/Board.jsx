@@ -9,8 +9,8 @@ export default class Board extends React.Component{
     render(){
         return(
             <Row>
-                <Col span = {6}/>
-                <Col span = {12}>
+                <Col span = {7}/>
+                <Col span = {10}>
                     <Row>
                         <Col>
                             <Square isBlack = "false" column = "a" row = "8"/>
@@ -220,7 +220,7 @@ export default class Board extends React.Component{
                         </Col>
                     </Row>
                 </Col>
-                <Col span = {6}/>
+                <Col span = {7}/>
             </Row>
         )
     }
