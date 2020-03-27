@@ -10,8 +10,9 @@ export default class Square extends React.Component{
         const{
             isBlack,
             occupied,
-            piece
-            //row
+            piece,
+            column,
+            row
         } = this.props
 
         let squareName = "square";
@@ -23,6 +24,8 @@ export default class Square extends React.Component{
             <div className ={squareName}>
                 <div className = "content">
                     {occupied ? piece : null}
+                    {column}
+                    {row}
                 </div>
             </div>
         )
