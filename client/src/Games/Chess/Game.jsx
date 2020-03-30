@@ -15,20 +15,22 @@ const generateSquares = () =>{
     ]; 
 
     const rows = [
-        {label: 8},
-        {label: 7},
-        {label: 6},
-        {label: 5},
-        {label: 4},
-        {label: 3},
-        {label: 2},
-        {label: 1}
+        {label: 8, top: 0 * 80},
+        {label: 7, top: 1 * 80},
+        {label: 6, top: 2 * 80},
+        {label: 5, top: 3 * 80},
+        {label: 4, top: 4 * 80},
+        {label: 3, top: 5 * 80},
+        {label: 2, top: 6 * 80},
+        {label: 1, top: 7 * 80}
     ]; 
 
     
     const squares = columns.map(c => rows.map(r => ({
         row: r.label,
-        column: c.label
+        column: c.label,
+        top: r.top,
+        left: c.left
     })));   
 
     const boardSquares = [];

@@ -15,17 +15,21 @@ export default class Square extends React.Component{
             row
         } = this.props
 
-        let squareName = "square";
+        // let squareName = "square";
+        // if(isBlack === 'true'){
+        //     squareName = "square-black"
+        // }
+        let squareName = "dumbSquare";
         if(isBlack === 'true'){
-            squareName = "square-black"
+            squareName = "dumbSquare-black"
         }
 
         return(
-            <div className ={squareName}>
+            <div className = {squareName}>
                 <div className = "content">
                     {occupied ? piece : null}
                     {column}
-                    {row}
+                    { row}
                 </div>
             </div>
         )

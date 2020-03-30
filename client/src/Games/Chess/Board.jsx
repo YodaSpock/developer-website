@@ -22,7 +22,7 @@ export default class Board extends React.Component{
                 return (
                     <Square
                         key = {index}
-                        //isBlack = {isBlack}
+                        isBlack = {'true'}
                         column = {column}
                         row = {row}
                     />
