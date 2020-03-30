@@ -34,6 +34,21 @@
     }
 }
 
+.dumbSquare{
+    height: 80px;
+    width: 80px;
+    background-color: #EEE;
+    border: 1px solid black;
+    
+}
+
+.dumbSquare-black{
+    height: 80px;
+    width: 80px;
+    background-color: darkgrey;
+    border: 1px solid black;
+    
+}
 .chessPiece{
     height: 100%;
     width: 100%;

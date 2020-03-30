@@ -1,8 +1,5 @@
 import React from 'react'
 import "./Square.scss"
-import WhiteRook from './ChessPieces/WhiteRook.png';
-import BlackRook from './ChessPieces/BlackRook.png';
-
 export default class Square extends React.Component{
     state = {}
 
@@ -12,20 +9,27 @@ export default class Square extends React.Component{
     render(){
         const{
             isBlack,
-            //column,
-            //row
+            occupied,
+            piece,
+            column,
+            row
         } = this.props
 
-        let squareName = "square";
+        // let squareName = "square";
+        // if(isBlack === 'true'){
+        //     squareName = "square-black"
+        // }
+        let squareName = "dumbSquare";
         if(isBlack === 'true'){
-            console.log("here");
-            squareName = "square-black"
+            squareName = "dumbSquare-black"
         }
 
         return(
-            <div className ={squareName}>
+            <div className = {squareName}>
                 <div className = "content">
-                    <img src = {BlackRook} alt = {"White Rook"} className = "chessPiece" />
+                    {occupied ? piece : null}
+                    {column}
+                    { row}
                 </div>
             </div>
         )
