@@ -4,10 +4,6 @@ import emoji from 'react-easy-emoji';
 
 export default class HistoryPage extends React.Component {
 
-    
-
-
-    //Change this to timeline either bookmarked one or the antd 
     render() {
         return (
             <div >
@@ -36,7 +32,7 @@ export default class HistoryPage extends React.Component {
                     The portfolio is made using React.js front end with help from ant design's react ui and sass styling. The backend for 
                     my projects such as chess is using node.js. I am currently working on developing the chess game to be played against 
                     an AI chess bot that will be written in python. I am currently enrolled in a machine learning course at Iowa State, 
-                    ComS 474 and I hope to put some of my knowledge to use in this project. 
+                    ComS 474, and I hope to put some of my knowledge to use in this project. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -54,18 +50,14 @@ export default class HistoryPage extends React.Component {
                   <h3>Senior Design Project</h3>
                   <h4>Intelligent Code Editor - Testing Lead</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    During the course of senior year, myself and 5 others have been slowly but surely developing an Intelligent Code
+                    Editor. The project is to take natural language and convert that into executable Java code. We made an IntelliJ 
+                    plugin that allows users to highlight natural language and translate into Java code. We do this by running a machine
+                    learning OpenNMT-py model through with an extensive hand-made dataset that allows users to select from multiple options
+                    when doing translations. We do a fair amount of preprocessing with the data, something I particularly worked on, by 
+                    filtering out words that aren't nouns or verbs. I also worked on creating a large dataset for our model to use, since 
+                    we unable to find a suitable dataset for our purposes. As the semester comes to a close I will be sad to part with this
+                    project.
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -83,18 +75,11 @@ export default class HistoryPage extends React.Component {
                   <h3>Squirrel Hacks Hackathon</h3>
                   <h4>Multiplayer Tetris</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                   This was my final hackathon at Iowa State, and myself and two friends decided to make a multiplayer tetris game
+                   where all players play on the same field. We came up with idea on Friday night, and had a semi-working product by
+                   Sunday morning. The gameplay was clunky and not ideal, but it was a great experience working with node.js and 
+                   working with web sockets. It was also a great experience working with two other great programmers on such a fun
+                   project. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -111,18 +96,13 @@ export default class HistoryPage extends React.Component {
                   <h3>G.A.M.E Project</h3>
                   <h4>ComS 309 Project - Lead Backend Developer</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    This was a semester long project that I was the oldest member on the team and the only one with one an
+                    internship under their belt so I was definetly the senior developer. We were developing a gaming console
+                    from the ground up using a Springboot Java backend, with a C++ frontend something none of us had ever used 
+                    before. I was in charge on not only the database setup, maintance and the server code but I quickly became 
+                    the one that was integrating client and server together and helping them talk. My team was amazing and we 
+                    spent many hours debugging, and programming together. Apart from my internship it was the biggest eye opener
+                    for realizing how important team communication is. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
