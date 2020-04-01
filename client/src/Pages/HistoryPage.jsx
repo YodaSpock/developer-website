@@ -27,18 +27,16 @@ export default class HistoryPage extends React.Component {
                   <h3>Personal Website</h3>
                   <h4>Isaac Spanier Portfolio - Lead Developer {emoji('😎')}</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                   This project was started on March 21st and is what you currently going through. It was a way for me to show
+                   off some things that I can do, and to work on some fun projects duing the COVID-19 pandemic. It's goal is to 
+                   help me get a full time job for starting after my May 2020 graduation. And yes I am the lead and only developer 
+                   on this project. 
                   </p>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    The portfolio is made using React.js front end with help from ant design's react ui and sass styling. The backend for 
+                    my projects such as chess is using node.js. I am currently working on developing the chess game to be played against 
+                    an AI chess bot that will be written in python. I am currently enrolled in a machine learning course at Iowa State, 
+                    ComS 474 and I hope to put some of my knowledge to use in this project. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
