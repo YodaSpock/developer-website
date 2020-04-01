@@ -4,10 +4,6 @@ import emoji from 'react-easy-emoji';
 
 export default class HistoryPage extends React.Component {
 
-    
-
-
-    //Change this to timeline either bookmarked one or the antd 
     render() {
         return (
             <div >
@@ -79,18 +75,11 @@ export default class HistoryPage extends React.Component {
                   <h3>Squirrel Hacks Hackathon</h3>
                   <h4>Multiplayer Tetris</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                   This was my final hackathon at Iowa State, and myself and two friends decided to make a multiplayer tetris game
+                   where all players play on the same field. We came up with idea on Friday night, and had a semi-working product by
+                   Sunday morning. The gameplay was clunky and not ideal, but it was a great experience working with node.js and 
+                   working with web sockets. It was also a great experience working with two other great programmers on such a fun
+                   project. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
