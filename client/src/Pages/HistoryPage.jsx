@@ -96,18 +96,13 @@ export default class HistoryPage extends React.Component {
                   <h3>G.A.M.E Project</h3>
                   <h4>ComS 309 Project - Lead Backend Developer</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    This was a semester long project that I was the oldest member on the team and the only one with one an
+                    internship under their belt so I was definetly the senior developer. We were developing a gaming console
+                    from the ground up using a Springboot Java backend, with a C++ frontend something none of us had ever used 
+                    before. I was in charge on not only the database setup, maintance and the server code but I quickly became 
+                    the one that was integrating client and server together and helping them talk. My team was amazing and we 
+                    spent many hours debugging, and programming together. Apart from my internship it was the biggest eye opener
+                    for realizing how important team communication is. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
