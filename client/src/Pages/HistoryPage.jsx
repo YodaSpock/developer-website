@@ -102,7 +102,7 @@ export default class HistoryPage extends React.Component {
                     before. I was in charge on not only the database setup, maintance and the server code but I quickly became 
                     the one that was integrating client and server together and helping them talk. My team was amazing and we 
                     spent many hours debugging, and programming together. Apart from my internship it was the biggest eye opener
-                    for realizing how important team communication is. 
+                    for realizing how important team communication is.
                   </p>
                 </TimelineItem>
                 <TimelineItem
