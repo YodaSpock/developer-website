@@ -3,11 +3,12 @@ import {Link} from 'react-router-dom'
 import chess from '../Images/chess.jpg';
 import sequence from '../Images/sequence.jpg';
 import euchre from '../Images/euchre.jpg';
-import yahtzee from '../Images/yahtzee.jpg';
+//import yahtzee from '../Images/yahtzee.jpg';
 import spotify from '../Images/spotify.jpg';
 import instagram from '../Images/instagram.jpg';
 import youtube from '../Images/youtube.jpg';
 import googlemaps from '../Images/googlemaps.jpg';
+import unity from '../Images/unity.jpg';
 
 import "../Styles/Project.scss";
 import {Row, Col} from 'antd';
@@ -31,7 +32,9 @@ export default class ProjectPage extends React.Component {
                         </Link>
                     </Col>
                     <Col span = {6}>
-                        <img src = {yahtzee} alt = {"Yahtzee Game"} className = "unfinished" />
+                        <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
+                            <img src = {youtube} alt = {"Youtube Channel"} className = "inprogress" />
+                        </a>
                     </Col>
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
@@ -45,7 +48,7 @@ export default class ProjectPage extends React.Component {
                         Play Euchre
                     </Col>
                     <Col span = {6}>
-                        Play Yahtzee
+                        YouTube Channel
                     </Col>
                 </Row>
                 <Row className = "centerAlign">
@@ -56,7 +59,7 @@ export default class ProjectPage extends React.Component {
                         <img src = {instagram} alt = {"Instagram Projects"} className = "unfinished"/>
                     </Col>
                     <Col span = {6}>
-                        <img src = {youtube} alt = {"Youtube Projects"} className = "unfinished"/>
+                        <img src = {unity} alt = {"Unity Projects"} className = "unfinished"/>
                     </Col>
                     <Col span = {6}>
                         <img src = {googlemaps} alt = {"Google Maps Projects"} className = "unfinished"/>
@@ -70,7 +73,7 @@ export default class ProjectPage extends React.Component {
                         Instagram Projects
                     </Col>
                     <Col span = {6}>
-                        YouTube Projects
+                        Unity Projects
                     </Col>
                     <Col span = {6}>
                         Google Maps Projects
@@ -78,6 +81,7 @@ export default class ProjectPage extends React.Component {
                 </Row>
             </div>
         )
+        //Yotube Projects
         //MINESWEEPER
         //BLACKJACK
         //TEXAS HOLDEM 
