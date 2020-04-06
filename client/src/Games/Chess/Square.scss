@@ -35,16 +35,16 @@
 }
 
 .dumbSquare{
-    height: 80px;
-    width: 80px;
+    flex: 1;
     background-color: #EEE;
     border: 1px solid black;
     
 }
 
 .dumbSquare-black{
-    height: 80px;
-    width: 80px;
+    flex: 1;
+    min-width: 6vw;
+    min-height: 6vw;
     background-color: darkgrey;
     border: 1px solid black;
     

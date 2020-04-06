@@ -13,7 +13,8 @@ import OtherPage from './Pages/OtherPage';
 
 function App() {
   return (
-    <Router>
+    <div>
+      <Router>
       <NavBar/>
       <div>
           <Route path="/" exact component ={HomePage}/>
@@ -25,7 +26,9 @@ function App() {
           <Route path="/chess" component ={ChessPage}/>
           <Route path="/euchre" component ={EuchrePage}/>
       </div>
-    </Router>
+      </Router>
+      
+    </div>
   );
 }
 
