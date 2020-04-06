@@ -1,5 +1,6 @@
 import React from 'react';
 import Board from './Board';
+import "./Game.scss";
 
 const generateSquares = () =>{  
     
@@ -46,7 +47,7 @@ export default class Game extends React.Component{
     }
     render(){
         return(
-            <div className = "Game">
+            <div className = "game">
                 <Board 
                     squares = {this.state.squares}
                 />
