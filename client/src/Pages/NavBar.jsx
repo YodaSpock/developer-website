@@ -27,7 +27,7 @@ export default class NavBar extends React.Component {
                 
             <Row className = "banner-name">
                 <Col>
-                    <Title style = {{color: "white"}} className ="banner-title">Isaac J Spanier</Title>
+                    <Title style = {{color: "white"}} className ="banner-title">Isaac J. Spanier</Title>
                 </Col>
             </Row>
             <Row className = "menu-row">
