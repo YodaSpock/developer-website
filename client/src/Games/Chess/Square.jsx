@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Square.scss"
+import "./Styles/Square.scss"
+import rook from "./Images/BlackRook.png"
 export default class Square extends React.Component{
     state = {}
 
@@ -9,10 +10,10 @@ export default class Square extends React.Component{
     render(){
         const{
             isBlack,
-            occupied,
-            piece,
-            column,
-            row
+            isOccupied,
+            //piece,
+            //column,
+            //row
         } = this.props
 
         // let squareName = "square";
@@ -20,16 +21,16 @@ export default class Square extends React.Component{
         //     squareName = "square-black"
         // }
         let squareName = "dumbSquare";
-        if(isBlack === 'true'){
+        if(isBlack === true){
             squareName = "dumbSquare-black"
         }
-
+        //".../Images/Black" + this.props.piece + ".png"
         return(
             <div className = {squareName}>
                 <div className = "content">
-                    {occupied ? piece : null}
-                    {column}
-                    { row}
+                    {isOccupied ? 
+                    <img src = {rook} className = "piece" alt = {"piece"} style = {{height: "100%", width: "100%"}}/> : 
+                    null}
                 </div>
             </div>
         )
