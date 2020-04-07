@@ -1,97 +1,60 @@
-import React, { Fragment } from 'react'
-import Square from './Square';
-import "./Board.scss";
+import React  from 'react'
+import Sqaure from './Square';
+import {Button} from 'antd';
+import "./Styles/Board.scss";
 
 
 export default class Board extends React.Component{
-    state = {}
+    
+
+    initializeBoard = () =>{
+        const squares = [];
+        const numOfRows = 8;
+        const numOfCols = 8;
+        const board = new Array(numOfCols);
+
+        //const columnNames = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+
+        //set rows and cols with empty arrays
+        
+
+        //fill the board with square Components
+        let counter = 0;
+        for(let i = 1; i < numOfCols + 1; i++){
+            board[i] = new Array(numOfRows)
+            for(let j = 1; j < numOfRows + 1; j++){
+                let square = {
+                    index: counter,
+                    row: i,
+                    col: j,
+                    piece: null
+                }
+                squares[counter] = square;
+                board[i][j] = square;
+                counter++;
+            }
+        }
+        console.log(squares);
+        console.log(this.state.squares);
+        this.setState({squares: squares});
+        console.log(this.state.squares);
+        
+    }
 
     render(){
-        const{
-            squares
-        } = this.props;
-
-
-        return(
-            <Fragment>
-                {squares.map((square, index) =>{
-                    const {
-                        column,
-                        row,
-                    } = square;
-                
-                return (
-                    <div>
-                        <div className = "row-8">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-7">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-6">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-5">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-4">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-3">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-2">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                        <div className = "row-1">
-                        <Square
-                            key = {index}
-                            isBlack = {'true'}
-                            column = {column}
-                            row = {row}
-                        />
-                        </div>
-                </div>
-
-                );
-
-                })}
-            </Fragment>
+        
+        //let squares = this.state.squares.map
+        return(   
+            <div className = "row-8">
+                <Button onClick = {this.initializeBoard}>Start</Button>
+                <Sqaure
+                    isBlack = {true}
+                    isOccupied = {false}
+                    //piece = {"rook"}
+                    //column = {"a"}
+                    //row = {"8"}
+                />
+            </div>
         )
     }
 }
