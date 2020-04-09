@@ -1,14 +1,14 @@
 import React from "react";
 import {GithubFilled, LinkedinFilled} from '@ant-design/icons';
 import profile from '../Images/profile.jpg';
-import "../Styles/Home.scss";
+import "../Styles/Background.scss";
 import {Row, Col} from 'antd';
 
 export default class HomePage extends React.Component {
 
     render() {
         return (
-            <div className = "home">
+            <div className = "backgroundHome">
             <Row>
                 <Col span = {10}/>
                 <Col span = {4}>

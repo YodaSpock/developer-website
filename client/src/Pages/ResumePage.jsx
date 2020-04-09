@@ -1,6 +1,6 @@
 import React from "react";
 import resume from '../Images/resume1.jpg';
-import "../Styles/Background.scss"
+import "../Styles/Background.scss";
 
 
 export default class ResumePage extends React.Component {

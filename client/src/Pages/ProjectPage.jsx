@@ -9,6 +9,7 @@ import instagram from '../Images/instagram.jpg';
 import youtube from '../Images/youtube.jpg';
 import googlemaps from '../Images/googlemaps.jpg';
 import unity from '../Images/unity.jpg';
+import "../Styles/Background.scss";
 
 import "../Styles/Project.scss";
 import {Row, Col} from 'antd';
@@ -16,7 +17,7 @@ export default class ProjectPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className = "backgroundProjects">
                 <Row className = "centerAlign">
                     <Col span = {6}>
                          <Link to="/chess">
@@ -24,10 +25,10 @@ export default class ProjectPage extends React.Component {
                          </Link>
                     </Col>
                     <Col span = {6}>
-                        <img src = {sequence} alt = {"Sequence Game"} className = "unfinished" />
+                        <img src = {sequence} alt = {"Sequence Game"} className = "inprogress" />
                     </Col>
                      <Col span = {6}>
-                        <img src = {euchre} alt = {"Euchre Game"} className = "unfinished" />
+                        <img src = {euchre} alt = {"Euchre Game"} className = "inprogress" />
                     </Col>
                     <Col span = {6}>
                         <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
@@ -51,16 +52,16 @@ export default class ProjectPage extends React.Component {
                 </Row>
                 <Row className = "centerAlign">
                     <Col span = {6}>
-                        <img src = {spotify} alt = {"Spotify Projects"} className = "unfinished"/>
+                        <img src = {spotify} alt = {"Spotify Projects"} className = "inprogress"/>
                     </Col>
                     <Col span = {6}>
-                        <img src = {instagram} alt = {"Instagram Projects"} className = "unfinished"/>
+                        <img src = {instagram} alt = {"Instagram Projects"} className = "inprogress"/>
                     </Col>
                     <Col span = {6}>
-                        <img src = {unity} alt = {"Unity Projects"} className = "unfinished"/>
+                        <img src = {unity} alt = {"Unity Projects"} className = "inprogress"/>
                     </Col>
                     <Col span = {6}>
-                        <img src = {googlemaps} alt = {"Google Maps Projects"} className = "unfinished"/>
+                        <img src = {googlemaps} alt = {"Google Maps Projects"} className = "inprogress"/>
                     </Col>
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>

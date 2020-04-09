@@ -1,12 +1,13 @@
 import React from "react";
 import {Timeline, TimelineItem} from 'vertical-timeline-component-for-react';
 import emoji from 'react-easy-emoji';
+import "../Styles/Background.scss";
 
 export default class HistoryPage extends React.Component {
 
     render() {
         return (
-            <div >
+            <div className = "backgroundHistory">
                 <Timeline lineColor={'#ddd'}>
                 <TimelineItem
                   key="009"
