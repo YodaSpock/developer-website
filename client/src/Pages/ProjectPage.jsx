@@ -27,9 +27,7 @@ export default class ProjectPage extends React.Component {
                         <img src = {sequence} alt = {"Sequence Game"} className = "unfinished" />
                     </Col>
                      <Col span = {6}>
-                        <Link to ="/euchre">
-                              <img src = {euchre} alt = {"Euchre Game"} className = "unfinished" />
-                        </Link>
+                        <img src = {euchre} alt = {"Euchre Game"} className = "unfinished" />
                     </Col>
                     <Col span = {6}>
                         <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
@@ -42,10 +40,10 @@ export default class ProjectPage extends React.Component {
                         Play Chess
                     </Col>
                     <Col span = {6}>
-                        Play Sequence
+                        Play Sequence <br/> (Under Construction)
                     </Col>
                     <Col span = {6}>
-                        Play Euchre
+                        Play Euchre <br/> (Under Construction)
                     </Col>
                     <Col span = {6}>
                         YouTube Channel
@@ -67,16 +65,16 @@ export default class ProjectPage extends React.Component {
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
                     <Col span = {6}>
-                        Spotify Projects
+                        Spotify Projects <br/> (Under Construction)
                     </Col>
                     <Col span = {6}>
-                        Instagram Projects
+                        Instagram Projects <br/> (Under Construction)
                     </Col>
                     <Col span = {6}>
-                        Unity Projects
+                        Unity Projects <br/> (Under Construction)
                     </Col>
                     <Col span = {6}>
-                        Google Maps Projects
+                        Google Maps Projects <br/> (Under Construction)
                     </Col>
                 </Row>
             </div>
