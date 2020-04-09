@@ -1,14 +1,15 @@
 import React from "react";
 import {GithubFilled, LinkedinFilled} from '@ant-design/icons';
 import profile from '../Images/profile.jpg';
+import "../Styles/Home.scss";
 import {Row, Col} from 'antd';
 
 export default class HomePage extends React.Component {
 
     render() {
         return (
-            <>
-            <Row className = "home">
+            <div className = "home">
+            <Row>
                 <Col span = {10}/>
                 <Col span = {4}>
                     <img src = {profile} className ="profile" alt = {"profile"} style = {{height: "100%", borderRadius: "100%", width: "100%"}}/><br/>
@@ -25,7 +26,7 @@ export default class HomePage extends React.Component {
                 </Col>
                 <Col span = {8}/>
            </Row>
-           </>
+           </div>
         )
     }
 
