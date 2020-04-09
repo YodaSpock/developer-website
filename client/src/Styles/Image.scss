@@ -29,13 +29,15 @@
     }
     &-title {
         text-align: center;
-        font-family: 'Arial';
+        font-size: 14px;
+        font-variant: 'tabular-nums';
     }  
 } 
 
 .menu {
     &-row{
         .ant-menu{
+            
             background-color: #0C2340;
             color: white;
         }

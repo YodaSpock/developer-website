@@ -23,40 +23,36 @@ export default class NavBar extends React.Component {
 
       render() {
         return (
-            <div>
-                
-            <Row className = "banner-name">
-                <Col>
-                    <Title style = {{color: "white"}} className ="banner-title">Isaac J. Spanier</Title>
-                </Col>
-            </Row>
-            <Row className = "menu-row">
-                <Col>
-                    <Menu className = "menu-bar" style = {{textAlign: "center", padding: "auto"}}onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
-                        <Menu.Item key = "home">
-                        Home <HomeOutlined/>
-                        <Link to="/"/>
-                        </Menu.Item>
-                        <Menu.Item key = "resume">
-                        Resume <FileTextOutlined/>
-                        <Link to="/resume"/>
-                        </Menu.Item>
-                        <Menu.Item key = "history">
-                        Work History <LaptopOutlined />
-                        <Link to="/history"/>
-                        </Menu.Item>
-                        <Menu.Item key = "projects">
-                        Side Projects <ExperimentOutlined/>
-                        <Link to="/projects"/>
-                        </Menu.Item>
-                        <Menu.Item key = "other">
-                        Other Interests <PictureOutlined/>
-                        <Link to="/other"/>
-                        </Menu.Item>
-                    </Menu>
-                </Col>
-            </Row>
-            {console.log(this.state.current)}
+            <div style= {{height: "100%"}}>
+                <Row className = "menu-row">
+                    {/* <Col className = "banner-name">
+                        <Title style = {{color: "white"}} className ="banner-title">Isaac J. Spanier</Title>
+                    </Col> */}
+                    <Col>
+                        <Menu className = "menu-bar" style = {{textAlign: "center", height: "100%"}}onClick = {this.handleClick} selectedKeys = {[this.state.current]} mode = "horizontal">
+                            <Menu.Item key = "home">
+                            Home <HomeOutlined/>
+                            <Link to="/"/>
+                            </Menu.Item>
+                            <Menu.Item key = "resume">
+                            Resume <FileTextOutlined/>
+                            <Link to="/resume"/>
+                            </Menu.Item>
+                            <Menu.Item key = "history">
+                            Work History <LaptopOutlined />
+                            <Link to="/history"/>
+                            </Menu.Item>
+                            <Menu.Item key = "projects">
+                            Side Projects <ExperimentOutlined/>
+                            <Link to="/projects"/>
+                            </Menu.Item>
+                            <Menu.Item key = "other">
+                            Other Interests <PictureOutlined/>
+                            <Link to="/other"/>
+                            </Menu.Item>
+                        </Menu>
+                    </Col>
+                </Row>
             </div>
         )
     }
