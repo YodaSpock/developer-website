@@ -1,8 +1,8 @@
 import React from "react";
-import {GithubFilled, LinkedinFilled} from '@ant-design/icons';
+import {GithubFilled, LinkedinFilled, YoutubeFilled} from '@ant-design/icons';
 import profile from '../Images/profile.jpg';
 import "../Styles/Background.scss";
-import {Row, Col} from 'antd';
+import {Row, Col, Divider} from 'antd';
 import { Typography } from 'antd';
 
 const { Title } = Typography;
@@ -29,13 +29,21 @@ export default class HomePage extends React.Component {
             </Row>
             <Row>
                 <Col span = {8}/>
-                <Col span = {8} style = {{textAlign: "center"}}>
-
-                    I am Looking for a full time software engineering position in the Seattle Area<br/>
-                    LinkedIn Page <a href="https://www.linkedin.com/in/isaacspanier/"> Here </a> <LinkedinFilled /><br/>
-                    GitHub Page <a href = "https://github.com/YodaSpock"> Here </a> <GithubFilled /><br/>
+                <Col span = {8} style = {{textAlign: "center", fontSize: "50px"}}>
+                <LinkedinFilled style = {{color: "blue",}}/>
+                <GithubFilled style = {{color: "black",}}/>
+                <YoutubeFilled style = {{color: "red", }}/>
+                    
                 </Col>
                 <Col span = {8}/>
+           </Row>
+            <Row>
+                <Col span = {24}>
+                    <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
+                </Col>
+           </Row>
+           <Row>
+                
            </Row>
            </div>
         )
