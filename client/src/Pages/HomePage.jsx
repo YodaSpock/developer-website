@@ -3,12 +3,23 @@ import {GithubFilled, LinkedinFilled} from '@ant-design/icons';
 import profile from '../Images/profile.jpg';
 import "../Styles/Background.scss";
 import {Row, Col} from 'antd';
+import { Typography } from 'antd';
+
+const { Title } = Typography;
+
 
 export default class HomePage extends React.Component {
 
     render() {
         return (
             <div className = "backgroundHome">
+            <Row style = {{paddingTop: "2vh", alignContent: "center"}}>
+                <Col span = {4}/>
+                <Col span = {16}>
+                    <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "50px"}}>Isaac J. Spanier</Title>
+                </Col>
+                <Col span = {4}/>
+            </Row>
             <Row>
                 <Col span = {10}/>
                 <Col span = {4}>
@@ -19,7 +30,7 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col span = {8}/>
                 <Col span = {8} style = {{textAlign: "center"}}>
-                    My name is Isaac Spanier<br/>
+
                     I am Looking for a full time software engineering position in the Seattle Area<br/>
                     LinkedIn Page <a href="https://www.linkedin.com/in/isaacspanier/"> Here </a> <LinkedinFilled /><br/>
                     GitHub Page <a href = "https://github.com/YodaSpock"> Here </a> <GithubFilled /><br/>
