@@ -30,22 +30,80 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col span = {8}/>
                 <Col span = {8} style = {{textAlign: "center", fontSize: "50px"}}>
-                <LinkedinFilled style = {{color: "blue",}}/>
-                <GithubFilled style = {{color: "black",}}/>
-                <YoutubeFilled style = {{color: "red", }}/>
+                    <a href="https://www.linkedin.com/in/isaacspanier/">
+                        <LinkedinFilled style = {{color: "blue",}}/>    
+                    </a>
+                    <a href = "https://github.com/YodaSpock">
+                        <GithubFilled style = {{color: "black",}}/> 
+                    </a>
+                    <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
+                        <YoutubeFilled style = {{color: "red", }}/>
+                    </a>
+                
+                
+                
                     
                 </Col>
                 <Col span = {8}/>
-           </Row>
+            </Row>
             <Row>
                 <Col span = {24}>
                     <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
                 </Col>
-           </Row>
-           <Row>
-                
-           </Row>
-           </div>
+            </Row>
+            <Row>
+                <Col span = {8}/>
+                <Col span = {8}>
+                    <Title  style= {{textAlign: "center"}}>About</Title>
+                </Col>
+                <Col span = {8}/>
+            </Row>
+            <Row>
+                <Col span = {2}/>
+                <Col span = {20}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Col>
+                <Col span = {2}/>
+            </Row>
+            <Row>
+                <Col span = {24}>
+                    <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
+                </Col>
+            </Row>
+            <Row>
+                <Col span = {8}/>
+                <Col span = {8}>
+                    <Title  style= {{textAlign: "center"}}>Work Experience</Title>
+                </Col>
+                <Col span = {8}/>
+            </Row>
+            <Row>
+                <Col span = {2}/>
+                <Col span = {20}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Col>
+                <Col span = {2}/>
+            </Row>
+            <Row>
+                <Col span = {24}>
+                    <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
+                </Col>
+            </Row>
+            <Row>
+                <Col span = {8}/>
+                <Col span = {8}>
+                    <Title  style= {{textAlign: "center"}}>Skills</Title>
+                </Col>
+                <Col span = {8}/>
+            </Row>
+            <Row>
+                <Col span = {2}/>
+                <Col span = {20}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Col>
+                <Col span = {2}/>
+            </Row>
+            </div>
         )
     }
 
