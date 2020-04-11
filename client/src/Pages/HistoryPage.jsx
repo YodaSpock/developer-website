@@ -154,11 +154,13 @@ export default class HistoryPage extends React.Component {
                   <h3>Embedded Roomba Maze Navigation</h3>
                   <h4>CprE 288 Final Project</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    This was the final project for my Computer Engineering 288 Embedded Systems Class. The class focused on embedded 
+                    programming in C on using the roomba and with external sensors attached to the roomba. I was the sensors lead for 
+                    the project and focuse on the sonar, IR, cliff, and bump sensors for the input. I had to detect any drop offs before
+                    roomba fell in, and detect any small obstacles with the bump sensors. And then finally any large obstacles would be 
+                    detected with the sonar and IR sensors. I was responsible for adjusting the data we recieved and 
+                    correcting to get a the smallest error possible. I was then responsible for the sending the data to the UI so we can
+                    correctly navgiate a maze of obstacles. 
                   </p>
                   <p>
                     Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
