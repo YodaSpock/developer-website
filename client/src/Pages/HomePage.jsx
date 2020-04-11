@@ -15,30 +15,30 @@ export default class HomePage extends React.Component {
         return (
             <div className = "backgroundHome">
             <Row style = {{paddingTop: "2vh", alignContent: "center"}}>
-                <Col span = {4}/>
-                <Col span = {16}>
+                <Col xs = {1} md = {4}/>
+                <Col xs = {22} md = {16}>
                     <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "50px"}}>Isaac J. Spanier</Title>
                 </Col>
-                <Col span = {4}/>
+                <Col xs = {1} md = {4}/>
             </Row>
             <Row>
-                <Col span = {6}/>
-                <Col span = {12}>
+                <Col xs = {1} md = {6}/>
+                <Col xs = {22} md = {12}>
                     <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "30px"}}>Full Stack Developer</Title>
                 </Col>
-                <Col span = {6}/>
+                <Col xs = {1} md = {6}/>
             </Row>
             <Row>
-                <Col span = {10}/>
-                <Col span = {4}>
+                <Col xs = {7} md = {8} lg = {8} xl = {10}/>
+                <Col xs = {10} md = {8} lg = {8} xl = {4}>
                     <img src = {profile} className ="profile" alt = {"profile"} style = {{height: "100%", borderRadius: "100%", width: "100%"}}/><br/>
                 </Col>
-                <Col span = {10}/>
+                <Col xs = {7} md = {8} lg = {8} xl = {10}/>
             </Row>
             
             <Row>
-                <Col span = {8}/>
-                <Col span = {8} style = {{textAlign: "center", fontSize: "50px"}}>
+                <Col xs = {2} span = {8}/>
+                <Col xs = {20} span = {8} style = {{textAlign: "center", fontSize: "50px"}}>
                     <a style = {{padding: "1%"}} href="https://www.linkedin.com/in/isaacspanier/">
                         <LinkedinFilled style = {{color: "blue",}}/>    
                     </a>
@@ -49,7 +49,7 @@ export default class HomePage extends React.Component {
                         <YoutubeFilled style = {{color: "red", }}/>
                     </a>
                 </Col>
-                <Col span = {8}/>
+                <Col xs = {2} span = {8}/>
             </Row>
             <Row>
                 <Col span = {24}>
