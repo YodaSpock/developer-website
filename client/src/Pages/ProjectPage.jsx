@@ -17,36 +17,38 @@ export default class ProjectPage extends React.Component {
 
     render() {
         return (
+            //TODO Add Spacing between navBar and the toprow
+            //TODO Fix the mobile version
             <div className = "backgroundProjects">
                 <Row className = "centerAlign">
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                          <Link to="/chess">
                              <img src = {chess} alt = {"Chess Game"} className = "inprogress" />
                          </Link>
                     </Col>
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                         <img src = {sequence} alt = {"Sequence Game"} className = "inprogress" />
                     </Col>
-                     <Col span = {6}>
+                     <Col xs = {12} md = {6}>
                         <img src = {euchre} alt = {"Euchre Game"} className = "inprogress" />
                     </Col>
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                         <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
                             <img src = {youtube} alt = {"Youtube Channel"} className = "inprogress" />
                         </a>
                     </Col>
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                         Play Chess
                     </Col>
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                         Play Sequence <br/> (Under Construction)
                     </Col>
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                         Play Euchre <br/> (Under Construction)
                     </Col>
-                    <Col span = {6}>
+                    <Col xs = {12} md = {6}>
                         YouTube Channel
                     </Col>
                 </Row>
