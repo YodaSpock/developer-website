@@ -1,11 +1,9 @@
 import React from "react";
-import {Menu, Typography} from 'antd';
+import {Menu} from 'antd';
 import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined} from '@ant-design/icons';
 import {Link} from 'react-router-dom';
 import {Row, Col} from 'antd';
 import "../Styles/Image.scss";
-
-const {Title} = Typography;
 export default class NavBar extends React.Component {
 
     state = {
