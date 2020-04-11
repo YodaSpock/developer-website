@@ -3,6 +3,7 @@ import {Divider, Typography, Row, Col} from "antd";
 import starWars from '../Images/StarWarsAdam.jpg';
 import billiards from '../Images/billiardsclub.jpg';
 import choir from '../Images/CarnegieHall.jpg';
+import games from '../Images/BoardGames.jpg';
 
 import "../Styles/Other.scss";
 import "../Styles/Background.scss";
@@ -62,7 +63,7 @@ export default class OtherPage extends React.Component {
                     <Title style ={{textAlign: "center"}}>BOARD GAMES</Title><br/>
                     <Row>
                         <Col span = {6}>
-                            <img src = {starWars} alt = {"StarWars"} className = "starwars" />
+                            <img src = {games} alt = {"StarWars"} className = "starwars" />
                         </Col>
                         <Col span = {18}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
