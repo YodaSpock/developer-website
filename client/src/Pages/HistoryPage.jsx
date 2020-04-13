@@ -162,13 +162,6 @@ export default class HistoryPage extends React.Component {
                     correcting to get a the smallest error possible. I was then responsible for the sending the data to the UI so we can
                     correctly navgiate a maze of obstacles. 
                   </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
                 </TimelineItem>
                 <TimelineItem
                   key="003"
@@ -185,18 +178,12 @@ export default class HistoryPage extends React.Component {
                   <h3>Digital Logic Key Pad Lock</h3>
                   <h4>CprE 281 Final Project</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    This class taught digital logic, and the final project was building a key pad lock system from and not, and or  
+                    logic gates. We were devloping on Altera DE2 Board and using Quartus Prime to layout the project. 
+                    This took an immense amount of time to develop the correct small components before making the state for 
+                    the keypad lock. We had to develop registers, and a time clock system, and several other components for the final
+                    project, and we had to demo our project to our TA. I was really pleased with my final working project and was very
+                    happy with the material of the class. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
