@@ -15,12 +15,12 @@ export default class OtherPage extends React.Component {
         return (
             <Row className = "backgroundOther">
                 <Col span = {24}>
-                    <Title style ={{textAlign: "center"}}>STAR WARS</Title><br/>
-                    <Row>
+                    <Row >
                         <Col span = {10}>
                             <img src = {starWars} alt = {"StarWars"} className = "starwars" />
                         </Col>
                         <Col span = {14}>
+                        <Title style ={{textAlign: "left"}}>STAR WARS</Title><br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
@@ -30,12 +30,12 @@ export default class OtherPage extends React.Component {
                     <Divider style = {{backgroundColor: "black"}} />
                 </Col>
                 <Col span = {24}>
-                    <Title style ={{textAlign: "center"}}>BILLIARDS</Title> <br/>
                     <Row>
                         <Col span = {10}>
                             <img src = {billiards} alt = {"Billiards"} className = "starwars" />
                         </Col>
                         <Col span = {14}>
+                        <Title style ={{textAlign: "left"}}>BILLIARDS</Title> <br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
@@ -45,12 +45,12 @@ export default class OtherPage extends React.Component {
                     <Divider style = {{backgroundColor: "black"}} />
                 </Col>
                 <Col span = {24}>
-                    <Title style ={{textAlign: "center"}}>CHOIR</Title> <br/>
-                    <Row>
+                    <Row className = "rowFlex">
                         <Col span = {10}>
                             <img src = {choir} alt = {"Choir"} className = "starwars" />
                         </Col>
                         <Col span = {14}>
+                        <Title style ={{textAlign: "left"}}>CHOIR</Title> <br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
@@ -60,12 +60,12 @@ export default class OtherPage extends React.Component {
                     <Divider style = {{backgroundColor: "black"}} />
                 </Col>
                 <Col span = {24}>
-                    <Title style ={{textAlign: "center"}}>BOARD GAMES</Title><br/>
-                    <Row>
+                    <Row className = "rowFlex">
                         <Col span = {10}>
                             <img src = {games} alt = {"StarWars"} className = "starwars" />
                         </Col>
                         <Col span = {14}>
+                        <Title style ={{textAlign: "left"}}>BOARD GAMES</Title><br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
