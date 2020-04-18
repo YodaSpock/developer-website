@@ -6,20 +6,30 @@ import throne from '../Images/StarWarsThrone.jpg';
 
 const SpringTest = () => {
     const [isToggled, setToggle] = useState(false);
-    const fade = useSpring({
+    const helloThere = useSpring({
         opacity: isToggled ? 0 : 1
     }); 
-    const fade2 = useSpring({
+    const generalKenobi = useSpring({
         opacity: isToggled ? 1 : 0
     }); 
-     console.log(fade);
 
      
     return (
-        <div className = "fade" >
-            <button onClick={() => setToggle(!isToggled)}>The Test</button>
-            <animated.h1 style = {fade}>Hello There</animated.h1>
-            <animated.h1 style = {fade2}>General Kenobi</animated.h1>
+        <div>
+            <div>
+                <img 
+                    onMouseOver = {() => setToggle(true)} 
+                    onMouseOut = {() => setToggle(false)}
+                    src = {starWars} alt = {"StarWars"} 
+                    className = "starwars" 
+                />
+            </div>
+            <animated.div style = {helloThere}>
+                <h2 style = {{paddingLeft: "5%"}}>Hello There</h2>
+            </animated.div>
+            <animated.div style = {generalKenobi}>
+                <h2 style = {{paddingLeft: "5%"}}>General Kenobi</h2>
+            </animated.div>
         </div>
     )
 };

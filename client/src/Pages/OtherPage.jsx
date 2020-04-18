@@ -1,4 +1,5 @@
 import React from "react";
+import {useSpring, animated} from 'react-spring';
 
 import {Divider, Typography, Row, Col} from "antd";
 import starWars from '../Images/StarWarsAdam2.jpg';
@@ -18,7 +19,7 @@ export default class OtherPage extends React.Component {
             <div className = "backgroundOther">
                     <Row>
                         <Col span = {6}>
-                            <img src = {starWars} alt = {"StarWars"} className = "starwars" />
+                            <SpringTest/>
                         </Col>
                         <Col span = {18}>
                             <Title style ={{textAlign: "left"}}>STAR WARS</Title><br/>
@@ -28,7 +29,6 @@ export default class OtherPage extends React.Component {
                             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </div>
-                            <SpringTest/>
                         </Col>
                     </Row>
                     <Divider style = {{backgroundColor: "black"}} />
