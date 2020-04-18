@@ -7,10 +7,10 @@ import throne from '../Images/StarWarsThrone.jpg';
 const SpringTest = () => {
     const fade = useSpring({
         from: {
-            opacity: 1
+            opacity: 0
         },
         to: {
-            opacity: 0
+            opacity: 1
         }
     });
      console.log(fade);
