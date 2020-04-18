@@ -9,7 +9,7 @@ import games from '../Images/BoardGames.jpg';
 
 import "../Styles/Other.scss";
 import "../Styles/Background.scss";
-import SpringTest from './SpringTest'
+import HelloThere from './HelloThere'
 const { Title } = Typography;
 
 export default class OtherPage extends React.Component {
@@ -19,7 +19,7 @@ export default class OtherPage extends React.Component {
             <div className = "backgroundOther">
                     <Row>
                         <Col span = {6}>
-                            <SpringTest/>
+                            <HelloThere/>
                         </Col>
                         <Col span = {18}>
                             <Title style ={{textAlign: "left"}}>STAR WARS</Title><br/>
