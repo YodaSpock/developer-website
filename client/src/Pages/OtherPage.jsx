@@ -1,4 +1,5 @@
 import React from "react";
+import {useSpring, animated} from 'react-spring';
 
 import {Divider, Typography, Row, Col} from "antd";
 import starWars from '../Images/StarWarsAdam2.jpg';
@@ -8,6 +9,7 @@ import games from '../Images/BoardGames.jpg';
 
 import "../Styles/Other.scss";
 import "../Styles/Background.scss";
+import HelloThere from './HelloThere'
 const { Title } = Typography;
 
 export default class OtherPage extends React.Component {
@@ -17,7 +19,7 @@ export default class OtherPage extends React.Component {
             <div className = "backgroundOther">
                     <Row>
                         <Col span = {6}>
-                            <img src = {starWars} alt = {"StarWars"} className = "starwars" />
+                            <HelloThere/>
                         </Col>
                         <Col span = {18}>
                             <Title style ={{textAlign: "left"}}>STAR WARS</Title><br/>
