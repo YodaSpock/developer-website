@@ -9,7 +9,6 @@ import instagram from '../Images/instagram.jpg';
 import youtube from '../Images/youtube.jpg';
 import googlemaps from '../Images/googlemaps.jpg';
 import unity from '../Images/unity.jpg';
-import SpringTest from './SpringTest';
 import "../Styles/Background.scss";
 
 import "../Styles/Project.scss";
@@ -81,7 +80,7 @@ export default class ProjectPage extends React.Component {
                         Google Maps Projects <br/> (Under Construction)
                     </Col>
                 </Row>
-                <SpringTest/>
+                
             </div>
         )
         //Yotube Projects

@@ -8,6 +8,7 @@ import games from '../Images/BoardGames.jpg';
 
 import "../Styles/Other.scss";
 import "../Styles/Background.scss";
+import SpringTest from './SpringTest'
 const { Title } = Typography;
 
 export default class OtherPage extends React.Component {
@@ -27,6 +28,7 @@ export default class OtherPage extends React.Component {
                             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </div>
+                            <SpringTest/>
                         </Col>
                     </Row>
                     <Divider style = {{backgroundColor: "black"}} />
