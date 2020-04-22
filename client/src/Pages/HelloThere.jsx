@@ -6,10 +6,8 @@ import throne from '../Images/StarWarsThrone.jpg';
 
 const SpringTest = () => {
     const [isToggled, setToggle] = useState(false);
-    const helloThere = useSpring({opacity: isToggled ? 0 : 1
-    }); 
-    const generalKenobi = useSpring({opacity: isToggled ? 1 : 0
-    }); 
+    const helloThere = useSpring({opacity: isToggled ? 0 : 1 }); 
+    const generalKenobi = useSpring({opacity: isToggled ? 1 : 0 }); 
 
      
     return (
