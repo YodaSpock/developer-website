@@ -11,7 +11,7 @@ export default class ResumePage extends React.Component {
             <Row className = "backgroundResume">
                 <Col xs = {0} md = {5}/>
                 <Col xs = {24} md = {14}>
-                    <img src = {resume} alt = {"Isaac Spanier 2020 Resume"} style = {{opacity: "1", width: "100%"}}/>
+                    <img src = {resume} alt = {"Isaac Spanier 2020 Resume"} style = {{opacity: "1", width: "100%", padding: "1%", borderRadius: "5%"}}/>
                 </Col>
                 <Col xs = {0} md = {5}/>
             </Row>   
