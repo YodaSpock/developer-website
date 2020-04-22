@@ -51,6 +51,21 @@ export default class HomePage extends React.Component {
                 </Col>
                 <Col xs = {2} span = {8}/>
             </Row>
+
+            <Row>
+                <Col xs = {2} span = {8}/>
+                <Col xs = {20} span = {8} style = {{textAlign: "center", color: "black", fontSize: "18px"}}>
+                    Phone: 815-980-2527
+                </Col>
+                <Col xs = {2} span = {8}/>
+            </Row>
+            <Row>
+                <Col xs = {2} span = {8}/>
+                <Col xs = {20} span = {8} style = {{textAlign: "center", color: "black", fontSize: "18px"}}>
+                    Email: isaac.spanier@gmail.com
+                </Col>
+                <Col xs = {2} span = {8}/>
+            </Row>
             <Row>
                 <Col span = {24}>
                     <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
