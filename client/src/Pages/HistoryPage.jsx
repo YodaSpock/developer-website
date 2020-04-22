@@ -201,18 +201,12 @@ export default class HistoryPage extends React.Component {
                   <h3>Squirrel Hacks Hackathon</h3>
                   <h4>Alexa Escape Room Game</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    This was my second hackathon with a my roommate and a couple other friends where we had plan to develop an Alexa skill. 
+                    Our idea for this skill was a burning house scneario where you have to verbally search the room you were in for clues before 
+                    the timer ran out and the house burnt down. It was a great experience although we never completed a finished product. We had
+                    issues with interacting with the Alexa API to even start our application. It was a learning experience in the fact that we 
+                    had spent so much time working on other aspects of the project such as utterances of what the user could say as well as the 
+                    interaction between objects in a OOP setting but not focusing on the core aspect of integrating with Alexa. 
                   </p>
                 </TimelineItem>
                 <TimelineItem
@@ -230,18 +224,12 @@ export default class HistoryPage extends React.Component {
                   <h3>Squirrel Hacks Hackathon</h3>
                   <h4>College Credit Website</h4>
                   <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
-                  </p>
-                  <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                    est.
+                    This was my first ever hackathon, and it was with some people I barely knew at the time. We decided to make a webpage that
+                    compared ISU credits to other community colleges and universities in Iowa to see what would transfer. All data was hardcoded 
+                    and displayed directly to the user. The biggest challenge with this project was learning to work with others on a project.
+                    This was the first time I had really run into issues concerning others on a programming project. I found out rather late that a 
+                    few of us were working on the same thing becuase we did not have a good plan or communication. Overall it was a great learning 
+                    experience and introduction to git as well as some front end development aspects.
                   </p>
                 </TimelineItem>
             </Timeline>
