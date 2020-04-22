@@ -24,7 +24,7 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col xs = {1} md = {6}/>
                 <Col xs = {22} md = {12}>
-                    <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "30px"}}>Full Stack Developer</Title>
+                    <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "30px"}}>Computer Engineering Student</Title>
                 </Col>
                 <Col xs = {1} md = {6}/>
             </Row>
@@ -65,12 +65,15 @@ export default class HomePage extends React.Component {
             </Row>
             <Row>
                 <Col span = {2}/>
-                <Col span = {20}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.
+                <Col span = {20} style = {{fontSize:"17px"}}>
+                    My name is Isaac Spanier, and thanks for taking the time to look around at my website, it. 
+                    I am originally from Rockford, Illinois and moved to Iowa to start my Bachelor's degree as a Computer Science major 
+                    at Iowa State University to pursue my passion of problem and puzzle solving. 
+                    After one semester I switched to Computer Engineering to challenge myself and learn more than just the software side 
+                    of computers and to gain a broader view of my field. What initially drew me to the Computer field was the idea of so many
+                    opportunites and so many things to learn, and it made sense to switch to major that gave I am generally fun loving guy that really enjoys learning
+                    new things and putting myself in new situations. I specialize in web development as a programmer but I have the ability 
+                    to work in any programming field as I have tried to expose myself and learn a little bit about everything. 
                 </Col>
                 <Col span = {2}/>
             </Row>
@@ -83,12 +86,15 @@ export default class HomePage extends React.Component {
             </Row>
             <Row>
                 <Col span = {2}/>
-                <Col span = {20}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.
+                <Col span = {20} style = {{fontSize:"17px"}}>
+                    Languages - HTML, CSS, JavaScript, TypeScript, React.JS, Java, C, C++, Python, SQL, JSP, .NET Framework, Verilog, and Assembly
+                    <br/>
+                    Operating Systems/Tools - Windows, Mac, Linux, VisualStudio, VSCode, Atom, IntelliJ, Eclipse, GitLab,
+                    GitHub, Quartus Prime, VirtualBox, SolidWorks, KiCad
+                    <br/>
+                    Concepts - Source Control, Data Structures, Databases, Object-Oriented Programming, Networking, PCB Design
+                    <br/>
+                    <br/>
                 </Col>
                 <Col span = {2}/>
             </Row>
