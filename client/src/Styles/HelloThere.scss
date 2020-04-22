@@ -1,0 +1,22 @@
+.sw-adam{
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 50vh;
+    height: 50vh;
+    cursor: pointer;
+    will-change: transform, opacity;
+    background-image: url(../Images/StarWarsAdam2.jpg)
+}
+
+.sw-throne{
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 50ch;
+    height: 50ch;
+    cursor: pointer;
+    will-change: transform, opacity;
+    background-image: url(../Images/StarWarsThrone.jpg)
+    
+}
