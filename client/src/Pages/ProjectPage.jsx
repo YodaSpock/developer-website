@@ -10,8 +10,8 @@ import youtube from '../Images/youtube.jpg';
 import googlemaps from '../Images/googlemaps.jpg';
 import unity from '../Images/unity.jpg';
 import "../Styles/Background.scss";
-
 import "../Styles/Project.scss";
+
 import {Row, Col} from 'antd';
 export default class ProjectPage extends React.Component {
 
