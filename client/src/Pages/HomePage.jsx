@@ -80,7 +80,7 @@ export default class HomePage extends React.Component {
             </Row>
             <Row>
                 <Col span = {2}/>
-                <Col span = {20} style = {{fontSize:"17px"}}>
+                <Col span = {20} style = {{fontSize:"17px", textAlign: "justify"}}>
                     My name is Isaac Spanier, and thanks for taking the time to look around at my website, it. 
                     I am originally from Rockford, Illinois and moved to Iowa to start my Bachelor's degree as a Computer Science major 
                     at Iowa State University to pursue my passion of problem and puzzle solving. 
