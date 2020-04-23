@@ -40,13 +40,13 @@ export default class ProjectPage extends React.Component {
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
                     <Col xs = {12} md = {6}>
-                        Play Chess
+                        Play Chess <br/> (Under Construction)
                     </Col>
                     <Col xs = {12} md = {6}>
-                        Play Sequence <br/> (Under Construction)
+                        Play Sequence <br/> (Not Started Yet)
                     </Col>
                     <Col xs = {12} md = {6}>
-                        Play Euchre <br/> (Under Construction)
+                        Play Euchre <br/> (Not Started Yet)
                     </Col>
                     <Col xs = {12} md = {6}>
                         YouTube Channel
@@ -68,16 +68,16 @@ export default class ProjectPage extends React.Component {
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
                     <Col span = {6}>
-                        Spotify Projects <br/> (Under Construction)
+                        Spotify Projects <br/> (Not Started Yet)
                     </Col>
                     <Col span = {6}>
-                        Instagram Projects <br/> (Under Construction)
+                        Instagram Projects <br/> (Not Started Yet)
                     </Col>
                     <Col span = {6}>
-                        Unity Projects <br/> (Under Construction)
+                        Unity Projects <br/> (Not Linked Yet)
                     </Col>
                     <Col span = {6}>
-                        Google Maps Projects <br/> (Under Construction)
+                        Google Maps Projects <br/> (Not Started Yet)
                     </Col>
                 </Row>
                 

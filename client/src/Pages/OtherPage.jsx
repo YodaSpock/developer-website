@@ -1,8 +1,8 @@
 import React from "react";
-import {useSpring, animated} from 'react-spring';
+//import {useSpring, animated} from 'react-spring';
 
 import {Divider, Typography, Row, Col} from "antd";
-import starWars from '../Images/StarWarsAdam2.jpg';
+//import starWars from '../Images/StarWarsAdam2.jpg';
 import billiards from '../Images/billiardsclub.jpg';
 import choir from '../Images/CarnegieHall.jpg';
 import games from '../Images/BoardGames.jpg';

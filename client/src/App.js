@@ -13,7 +13,7 @@ import OtherPage from './Pages/OtherPage';
 
 function App() {
   return (
-    <div>
+    <div style = {{height: "100%"}}>
       <Router>
           <NavBar/>
           <Route path="/" exact component ={HomePage}/>
