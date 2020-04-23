@@ -22,12 +22,12 @@ export default class OtherPage extends React.Component {
                             <HelloThere/>
                         </Col>
                         <Col span = {18}>
-                            <Title style ={{textAlign: "left"}}>STAR WARS</Title><br/>
+                            <Title style ={{textAlign: "left"}}>STAR WARS</Title>
                             <div className = "text">
-                            I have been a Star Wars since seeing Attack of Clones in the theaters in 2002 where I was enamored with the wild fantasy
-                            and it became a big part of my life. I am huge fan of the Prequel movies, and The Clone Wars TV show. I regularly quote 
-                            the movies in my day to day life, and enjoy talking theories and opinions about the unverise. My favorite characters is
-                            Jedi Grand Master Yoda, and I named my programming tutorial channel after him, Coding With Yoda. 
+                            I have been a huge Star Wars fan since seeing Attack of Clones in the theaters in 2002 where I was enamored with the wild 
+                            fantasy and it became a big part of my life. I am huge fan of the Prequel movies, and The Clone Wars TV show. I regularly
+                            quote the movies in my day to day life, and enjoy talking theories and opinions about the unverise. My favorite characters 
+                            is the old Jedi Grand Master Yoda, and I named my programming tutorial channel after him, Coding With Yoda. 
                             The picture to my left is me with my good friend Adam who is one of few people
                             I consider to be a bigger Star Wars fan than myself. 
                             </div>
@@ -39,7 +39,7 @@ export default class OtherPage extends React.Component {
                             <img src = {billiards} alt = {"Billiards"} className = "starwars" />
                         </Col>
                         <Col span = {18}>
-                            <Title style ={{textAlign: "left"}}>BILLIARDS</Title> <br/>
+                            <Title style ={{textAlign: "left"}}>BILLIARDS</Title>
                             <div className = "text" >
                             I grew up only playing pool when I went to my grandparent's house which was only once a month but it sparked my love of the game
                             from an early age. Once coming to Iowa State I quickly found and became a part of the Billiards Club, where I was the Vice President
@@ -57,7 +57,7 @@ export default class OtherPage extends React.Component {
                             <img src = {choir} alt = {"Choir"} className = "starwars" />
                         </Col>
                         <Col span = {18}>
-                            <Title style ={{textAlign: "left"}}>CHOIR</Title> <br/>
+                            <Title style ={{textAlign: "left"}}>CHOIR</Title>
                             <div className = "text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -72,7 +72,7 @@ export default class OtherPage extends React.Component {
                             <img src = {games} alt = {"StarWars"} className = "starwars" />
                         </Col>
                         <Col span = {18}>
-                            <Title style ={{textAlign: "left"}}>BOARD GAMES</Title><br/>
+                            <Title style ={{textAlign: "left"}}>BOARD GAMES</Title>
                             <div className = "text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
