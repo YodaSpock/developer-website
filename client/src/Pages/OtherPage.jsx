@@ -18,7 +18,7 @@ export default class OtherPage extends React.Component {
         return (
             <div className = "backgroundOther">
                     {/* Add lightsaber cursor here */}
-                    <Row>
+                    <Row className = "swRow">
                         <Col span = {6}>
                             <HelloThere/>
                         </Col>
@@ -36,7 +36,7 @@ export default class OtherPage extends React.Component {
                     </Row>
                     <Divider style = {{backgroundColor: "black"}} />
                     {/* Add billiards ball cursor here */}
-                    <Row>
+                    <Row className = "billiardsRow">
                         <Col span = {6}>
                             <img src = {billiards} alt = {"Billiards"} className = "starwars" />
                         </Col>
@@ -55,7 +55,7 @@ export default class OtherPage extends React.Component {
                     </Row>
                     <Divider style = {{backgroundColor: "black"}} />
                     {/* Add music note cursor here */}
-                    <Row>
+                    <Row style = {{cursor: "move"}}>
                         <Col span = {6}>
                             <img src = {choir} alt = {"Choir"} className = "starwars" />
                         </Col>
@@ -71,7 +71,7 @@ export default class OtherPage extends React.Component {
                     </Row>
                     <Divider style = {{backgroundColor: "black"}} />
                     {/* Add dice cursor here */}
-                    <Row>
+                    <Row style = {{cursor: "move"}}>
                         <Col span = {6}>
                             <img src = {games} alt = {"StarWars"} className = "starwars" />
                         </Col>
