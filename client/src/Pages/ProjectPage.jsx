@@ -35,7 +35,9 @@ export default class ProjectPage extends React.Component {
                         <img src = {euchre} alt = {"Euchre Game"} className = "inprogress" />
                     </Col>
                     <Col xs = {12} md = {6}>
-                        <img src = {house} alt = {"Karla's Krazy House"} className = "inprogress" />
+                        <Link to="/house">  
+                            <img src = {house} alt = {"Karla's Krazy House"} className = "inprogress" />
+                            </Link>
                     </Col>
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
