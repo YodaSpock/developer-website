@@ -3,12 +3,14 @@ import {Link} from 'react-router-dom'
 import chess from '../Images/chess.jpg';
 import sequence from '../Images/sequence.jpg';
 import euchre from '../Images/euchre.jpg';
+import house from '../Images/CrazyHouse.jpg';
 //import yahtzee from '../Images/yahtzee.jpg';
 import spotify from '../Images/spotify.jpg';
 import instagram from '../Images/instagram.jpg';
 import youtube from '../Images/youtube.jpg';
 import googlemaps from '../Images/googlemaps.jpg';
 import unity from '../Images/unity.jpg';
+import emoji from 'react-easy-emoji';
 import "../Styles/Background.scss";
 import "../Styles/Project.scss";
 
@@ -33,9 +35,7 @@ export default class ProjectPage extends React.Component {
                         <img src = {euchre} alt = {"Euchre Game"} className = "inprogress" />
                     </Col>
                     <Col xs = {12} md = {6}>
-                        <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
-                            <img src = {youtube} alt = {"Youtube Channel"} className = "inprogress" />
-                        </a>
+                        <img src = {house} alt = {"Karla's Krazy House"} className = "inprogress" />
                     </Col>
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
@@ -49,7 +49,7 @@ export default class ProjectPage extends React.Component {
                         Play Euchre <br/> (Not Started Yet)
                     </Col>
                     <Col xs = {12} md = {6}>
-                        YouTube Channel
+                        Karla's Krazy House {emoji('🤪')} <br/> (Under Construction)
                     </Col>
                 </Row>
                 <Row className = "centerAlign">
@@ -78,6 +78,18 @@ export default class ProjectPage extends React.Component {
                     </Col>
                     <Col span = {6}>
                         Google Maps Projects <br/> (Not Started Yet)
+                    </Col>
+                </Row>
+                <Row className = "centerAlign">
+                    <Col xs = {12} md = {6}>
+                        <a href = "https://www.youtube.com/channel/UCIzt2QpLmaFUMDXETm_qWkQ" >
+                            <img src = {youtube} alt = {"Youtube Channel"} className = "inprogress" />
+                        </a>
+                    </Col>
+                </Row>
+                <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
+                    <Col xs = {12} md = {6}>
+                        Youtube Channel <br/>
                     </Col>
                 </Row>
                 
