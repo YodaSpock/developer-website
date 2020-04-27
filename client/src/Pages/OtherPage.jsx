@@ -98,7 +98,10 @@ export default class OtherPage extends React.Component {
                         <Col span = {18}>
                             <Title style ={{textAlign: "left"}}>BOARD GAMES</Title>
                             <div className = "text">
-                            WORDS
+                            Board Games are an essiential part of my life, and I cannot learn enough games quick enough. I love plyaing board games
+                            with my friends and with my girlfriend. Some of my favorite games include Catan, 7 Wonders, Betrayal at House on the Hill,
+                            Secret Hitler, Machi Koro, CLANK, and Splendor. 
+                            I think this might be favorite thing to do in my off time and I am always looking for new games to learn and play.  
                             </div>
                         </Col>
                     </Row>
