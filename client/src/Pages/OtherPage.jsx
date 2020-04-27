@@ -15,7 +15,7 @@ const { Title } = Typography;
 export default class OtherPage extends React.Component {
 
     render() {
-        return (
+        return ( 
             <div className = "backgroundOther">
                     {/* Add lightsaber cursor here */}
                     <Row className = "swRow">
