@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { Input, Typography, Row, Col, Button} from 'antd';
 
 const {Title} = Typography;
-export default class ProjectPage extends React.Component {
+export default class HouseLandingPage extends React.Component {
 
     render(){
         return(
