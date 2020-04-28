@@ -28,19 +28,12 @@ export default class ProjectPage extends React.Component {
         });
     };
 
-    handleOk = e => {
+    handleCancel = (e) => {
         console.log(e);
         this.setState({
           visible: false,
         });
-      };
-    
-      handleCancel = e => {
-        console.log(e);
-        this.setState({
-          visible: false,
-        });
-      };
+    };
     
     render() {
         return (
@@ -48,10 +41,10 @@ export default class ProjectPage extends React.Component {
             //TODO Fix the mobile version
             <div className = "backgroundProjects">
                 <Modal
-                    title = "Krazy House"
+                    title = "Karla's Krazy House"
                     visible = {this.state.visible}
-                    onOk = {this.handleOk}
                     onCancel = {this.handleCancel}
+                    footer = {[]}
                 >
                     <HouseLandingPage/>
                 </Modal>
