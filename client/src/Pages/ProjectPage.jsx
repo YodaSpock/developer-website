@@ -11,17 +11,51 @@ import youtube from '../Images/youtube.jpg';
 import googlemaps from '../Images/googlemaps.jpg';
 import unity from '../Images/unity.jpg';
 import emoji from 'react-easy-emoji';
+import {Button} from 'antd';
 import "../Styles/Background.scss";
 import "../Styles/Project.scss";
 
-import {Row, Col} from 'antd';
+import {Row, Col, Modal} from 'antd';
+import HouseLandingPage from "../KrazyHouse/HouseLandingPage";
 export default class ProjectPage extends React.Component {
 
+
+    state = {visible: false};
+
+    showModal = () =>{
+        this.setState({
+            visible: true,
+        });
+    };
+
+    handleOk = e => {
+        console.log(e);
+        this.setState({
+          visible: false,
+        });
+      };
+    
+      handleCancel = e => {
+        console.log(e);
+        this.setState({
+          visible: false,
+        });
+      };
+    
     render() {
         return (
             //TODO Add Spacing between navBar and the toprow
             //TODO Fix the mobile version
             <div className = "backgroundProjects">
+                <Modal
+                    title = "Krazy House"
+                    visible = {this.state.visible}
+                    onOk = {this.handleOk}
+                    onCancel = {this.handleCancel}
+                >
+                    <HouseLandingPage/>
+                </Modal>
+                {console.log(this.state.visible)}
                 <Row className = "centerAlign">
                     <Col xs = {12} md = {6}>
                          <Link to="/chess">
@@ -35,9 +69,13 @@ export default class ProjectPage extends React.Component {
                         <img src = {euchre} alt = {"Euchre Game"} className = "inprogress" />
                     </Col>
                     <Col xs = {12} md = {6}>
-                        <Link to="/house">  
-                            <img src = {house} alt = {"Karla's Krazy House"} className = "inprogress" />
-                            </Link>
+                        <img 
+                        src = {house} 
+                        alt = {"Karla's Krazy House"} 
+                        onClick = {this.showModal} 
+                        style = {{cursor: "pointer"}}
+                        className = "inprogress" 
+                        />
                     </Col>
                 </Row>
                 <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
