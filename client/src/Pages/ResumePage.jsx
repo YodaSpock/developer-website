@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../Images/resume2.jpg';
+import resume from '../Images/resume3.jpg';
 import "../Styles/Background.scss";
 import {Row, Col} from 'antd';
 
