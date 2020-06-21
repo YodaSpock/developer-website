@@ -24,7 +24,7 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col xs = {1} md = {6}/>
                 <Col xs = {22} md = {12}>
-                    <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "30px"}}>Computer Engineering Student</Title>
+                    <Title style = {{textAlign: "center", color: "#0C2340", fontSize: "30px"}}>B.S. in Computer Engineering</Title>
                 </Col>
                 <Col xs = {1} md = {6}/>
             </Row>
@@ -81,16 +81,22 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col span = {2}/>
                 <Col span = {20} style = {{fontSize:"17px", textAlign: "justify"}}>
-                    My name is Isaac Spanier, and thanks for taking the time to look around at my website, it. 
+                    My name is Isaac Spanier, and thanks for taking the time to look around at my website. 
                     I am originally from Rockford, Illinois and moved to Iowa to start my Bachelor's degree as a Computer Science major 
                     at Iowa State University to pursue my passion of problem and puzzle solving. 
                     After one semester I switched to Computer Engineering to challenge myself and learn more than just the software side 
                     of computers and to gain a broader view of my field. What initially drew me to the Computer field was the idea of so many
                     opportunites and so many things to learn, and it made sense to switch to major that gave I am generally fun loving guy that really enjoys learning
-                    new things and putting myself in new situations. I specialize in web development as a programmer but I have the ability 
-                    to work in any programming field as I have tried to expose myself and learn a little bit about everything. 
+                    new things and putting myself in new situations. I pride myslef in having the ability 
+                    to work in any programming field as I have tried to expose myself and learn a little bit about everything. As of this May 2020 I graduated
+                    with my Bachelor of Science in Computer Engineering and I am currently looking for a full time position.
                 </Col>
                 <Col span = {2}/>
+            </Row>
+            <Row>
+                <Col span = {24}>
+                    <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
+                </Col>
             </Row>
             <Row>
                 <Col span = {8}/>
