@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import { Input, Row, Col, Button, Modal} from 'antd';
+import { Input, Row, Col, Button} from 'antd';
 
 //const {Title} = Typography;
 export default class HouseLandingPage extends React.Component {
