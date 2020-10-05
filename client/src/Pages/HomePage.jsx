@@ -31,7 +31,14 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col xs = {7} md = {8} lg = {8} xl = {10}/>
                 <Col xs = {10} md = {8} lg = {8} xl = {4}>
-                    <img src = {profile} className ="profile" alt = {"profile"}/><br/>
+                    <div class = "flip-profile">
+                        <div class = "flip-profile-front">
+                            <img src = {profile} className ="profile" alt = {"profile"}/><br/>
+                        </div>
+                        {/* <div class = "flip-profile-back">
+                            <img src = {profile} className ="profile" alt = {"profile"}/><br/>
+                        </div> */}
+                    </div>
                 </Col>
                 <Col xs = {7} md = {8} lg = {8} xl = {10}/>
             </Row>
@@ -85,11 +92,11 @@ export default class HomePage extends React.Component {
                     I am originally from Rockford, Illinois and moved to Iowa to start my Bachelor's degree as a Computer Science major 
                     at Iowa State University to pursue my passion of problem and puzzle solving. 
                     After one semester I switched to Computer Engineering to challenge myself and learn more than just the software side 
-                    of computers and to gain a broader view of my field. What initially drew me to the Computer field was the idea of so many
-                    opportunites and so many things to learn, and it made sense to switch to major that gave I am generally fun loving guy that really enjoys learning
-                    new things and putting myself in new situations. I pride myslef in having the ability 
-                    to work in any programming field as I have tried to expose myself and learn a little bit about everything. As of this May 2020 I graduated
-                    with my Bachelor of Science in Computer Engineering and I am currently looking for a full time position.
+                    of computers and to gain a broader view of my field. What initially drew me to the computer field was the idea of so many
+                    opportunites and so many things to learn. I pride myslef in having the ability 
+                    to work with any programming language or framework as I have tried to expose myself and learn a little bit about everything. 
+                    I enjoy learning new things and I strive to always be learning and improving. 
+                    As of this May 2020 I graduated with my Bachelor of Science in Computer Engineering and I am currently looking for a full time position.
                 </Col>
                 <Col span = {2}/>
             </Row>
