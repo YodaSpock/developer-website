@@ -1,11 +1,16 @@
 .profile {
+    position: relative;
     height: 100%;
     width: 100%;
     opacity: 1;
     border-radius: 100%;
-    position: relative;
-    transition: transform 0.01s;
+    
+    transition: transform 0.8s;
     transform-style: preserve-3d;
+}
+
+.flip-profile {
+    background-color: transparent;
 }
 
 .profile:hover {
