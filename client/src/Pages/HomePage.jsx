@@ -31,7 +31,7 @@ export default class HomePage extends React.Component {
             <Row>
                 <Col xs = {7} md = {8} lg = {8} xl = {10}/>
                 <Col xs = {10} md = {8} lg = {8} xl = {4}>
-                    <img src = {profile} className ="profile" alt = {"profile"} style = {{height: "100%", borderRadius: "100%", width: "100%"}}/><br/>
+                    <img src = {profile} className ="profile" alt = {"profile"}/><br/>
                 </Col>
                 <Col xs = {7} md = {8} lg = {8} xl = {10}/>
             </Row>
