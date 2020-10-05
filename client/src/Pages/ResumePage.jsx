@@ -1,8 +1,8 @@
 import React from "react";
-import resume from '../Images/resume3.jpg';
+import resume from '../Images/resume6.jpg';
 //import pdf from "../Images/Resume.pdf";
 import "../Styles/Background.scss";
-import {Row, Col} from 'antd';
+import {Row, Col } from 'antd';
 
 
 export default class ResumePage extends React.Component {
