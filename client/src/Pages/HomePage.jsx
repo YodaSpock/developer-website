@@ -32,6 +32,7 @@ export default class HomePage extends React.Component {
                 <Col xs = {7} md = {8} lg = {8} xl = {10}/>
                 <Col xs = {10} md = {8} lg = {8} xl = {4}>
                     <div class = "flip-profile">
+                        {/* TODO - Add better image for the back */}
                         <div class = "flip-profile-front">
                             <img src = {profile} className ="profile" alt = {"profile"}/><br/>
                         </div>
