@@ -1,6 +1,6 @@
 import React from "react";
 import {Menu} from 'antd';
-import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined} from '@ant-design/icons';
+import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined, FolderOpenOutlined, DotChartOutlined} from '@ant-design/icons';
 import {Link} from 'react-router-dom';
 import {Row, Col} from 'antd';
 import "../Styles/Image.scss";
@@ -40,8 +40,16 @@ export default class NavBar extends React.Component {
                             Work History <LaptopOutlined />
                             <Link to="/history"/>
                             </Menu.Item>
+                            <Menu.Item key = "descriptions">
+                            Project Descriptions <FolderOpenOutlined/>
+                            <Link to="/history"/>
+                            </Menu.Item>
                             <Menu.Item key = "projects">
                             Side Projects <ExperimentOutlined/>
+                            <Link to="/projects"/>
+                            </Menu.Item>
+                            <Menu.Item key = "machineLearning">
+                            Machine Learning <DotChartOutlined/>
                             <Link to="/projects"/>
                             </Menu.Item>
                             <Menu.Item key = "other">

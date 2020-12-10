@@ -55,10 +55,10 @@ export default class ProjectPage extends React.Component {
                              <img src = {chess} alt = {"Chess Game"} className = "inprogress" />
                          </Link>
                     </Col>
-                    <Col xs = {12} md = {6}>
+                    <Col xs = {12} md = {6} className = "unfinished">
                         <img src = {sequence} alt = {"Sequence Game"} className = "inprogress" />
                     </Col>
-                     <Col xs = {12} md = {6}>
+                     <Col xs = {12} md = {6} className = "unfinished">
                         <img src = {euchre} alt = {"Euchre Game"} className = "inprogress" />
                     </Col>
                     <Col xs = {12} md = {6}>
@@ -71,7 +71,7 @@ export default class ProjectPage extends React.Component {
                         />
                     </Col>
                 </Row>
-                <Row className = "centerAlign" style ={{paddingBottom: "2.5%"}}>
+                <Row className = "centerAlign unfinished" style ={{paddingBottom: "2.5%"}}>
                     <Col xs = {12} md = {6}>
                         Play Chess <br/> (Under Construction)
                     </Col>
@@ -85,7 +85,7 @@ export default class ProjectPage extends React.Component {
                         Karla's Krazy House {emoji('🤪')} <br/> (Under Construction)
                     </Col>
                 </Row>
-                <Row className = "centerAlign">
+                <Row className = "centerAlign unfinished">
                     <Col span = {6}>
                         <img src = {spotify} alt = {"Spotify Projects"} className = "inprogress"/>
                     </Col>
