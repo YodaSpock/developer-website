@@ -40,18 +40,18 @@ export default class NavBar extends React.Component {
                             Work History <LaptopOutlined />
                             <Link to="/history"/>
                             </Menu.Item>
-                            <Menu.Item key = "descriptions">
+                            {/* <Menu.Item key = "descriptions">
                             Project Descriptions <FolderOpenOutlined/>
                             <Link to="/history"/>
-                            </Menu.Item>
+                            </Menu.Item> */}
                             <Menu.Item key = "projects">
                             Side Projects <ExperimentOutlined/>
                             <Link to="/projects"/>
                             </Menu.Item>
-                            <Menu.Item key = "machineLearning">
+                            {/* <Menu.Item key = "machineLearning">
                             Machine Learning <DotChartOutlined/>
                             <Link to="/projects"/>
-                            </Menu.Item>
+                            </Menu.Item> */}
                             <Menu.Item key = "other">
                             Other Interests <PictureOutlined/>
                             <Link to="/other"/>
