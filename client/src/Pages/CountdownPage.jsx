@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Background.scss";
-import {Row, Col } from 'antd';
-import {format, formatDuration, intervalToDuration} from 'date-fns';
+import {Row} from 'antd';
+import {formatDuration, intervalToDuration} from 'date-fns';
 
 
 export default class CountdownPage extends React.Component {
