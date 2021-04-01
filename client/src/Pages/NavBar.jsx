@@ -1,6 +1,6 @@
 import React from "react";
 import {Menu} from 'antd';
-import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined, FolderOpenOutlined, DotChartOutlined} from '@ant-design/icons';
+import {HomeOutlined, FileTextOutlined, ExperimentOutlined, LaptopOutlined, PictureOutlined} from '@ant-design/icons';
 import {Link} from 'react-router-dom';
 import {Row, Col} from 'antd';
 import "../Styles/Image.scss";
