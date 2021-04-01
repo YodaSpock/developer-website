@@ -17,7 +17,7 @@ export default class CountdownPage extends React.Component {
                     {formatDuration(intervalToDuration({
                         start: this.todaysDate,
                         end: this.moveInDate
-                    }), {format: ['days', 'hours', 'minutes', 'seconds']})
+                    }), {format: ['days', 'hours', 'minutes']})
                     }
                 </Row>
                 
