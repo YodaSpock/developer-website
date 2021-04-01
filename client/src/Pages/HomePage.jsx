@@ -4,16 +4,42 @@ import profile from '../Images/profile.jpg';
 import "../Styles/Background.scss";
 import "../Styles/Home.scss"
 import {Row, Col, Divider} from 'antd';
-import { Typography } from 'antd';
+import { Typography, Button, Modal } from 'antd';
+import CountdownPage from "./CountdownPage";
+
 
 const { Title } = Typography;
 
-
 export default class HomePage extends React.Component {
+
+    state = {visible: false};
+
+    showModal = () =>{
+        this.setState({
+            visible: true,
+        });
+    };
+
+    handleCancel = (e) => {
+        console.log(e);
+        this.setState({
+          visible: false,
+        });
+    };
 
     render() {
         return (
             <div className = "backgroundHome">
+                <Modal
+                    style ={{minWidth: "700px"}}
+                    visible = {this.state.visible}
+                    onCancel = {this.handleCancel}
+                    footer = {[]}
+                >
+                    <CountdownPage>
+
+                    </CountdownPage>
+                </Modal>
             <Row style = {{paddingTop: "2vh", alignContent: "center"}}>
                 <Col xs = {1} md = {4}/>
                 <Col xs = {22} md = {16}>
@@ -74,6 +100,12 @@ export default class HomePage extends React.Component {
                 </Col>
                 <Col xs = {2} span = {8}/>
             </Row>
+            <Row style = {{display: "flex", justifyContent: "center", paddingTop: "5px"}}>
+                <Button type = "primary" danger onClick={this.showModal}>
+                    For Rachel
+                </Button>
+            </Row>
+
             <Row>
                 <Col span = {24}>
                     <Divider style = {{backgroundColor: "black", height: "2.5px"}}/>
