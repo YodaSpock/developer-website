@@ -8,12 +8,11 @@ export default class CountdownPage extends React.Component {
 
     
     todaysDate = new Date();
-    moveInDate = new Date(2021, 4, 16);
-
+    moveInDate = new Date(2021, 4, 16, 13);
     render() {
         return (
-            <div style ={{backgroundColor: 'purple'}}>
-                <Row style = {{display: "flex", justifyContent: "center", fontSize: "30px"}}>
+            <div>
+                <Row style = {{display: "flex", justifyContent: "center", fontSize: "30px",}}>
                     {formatDuration(intervalToDuration({
                         start: this.todaysDate,
                         end: this.moveInDate
