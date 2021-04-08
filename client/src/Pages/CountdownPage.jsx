@@ -12,7 +12,7 @@ export default class CountdownPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style ={{backgroundColor: 'purple'}}>
                 <Row style = {{display: "flex", justifyContent: "center", fontSize: "30px"}}>
                     {formatDuration(intervalToDuration({
                         start: this.todaysDate,

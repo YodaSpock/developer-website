@@ -31,10 +31,10 @@ export default class HomePage extends React.Component {
         return (
             <div className = "backgroundHome">
                 <Modal
-                    style ={{wordWrap: "initial"}}
+                    style ={{wordWrap: "initial", backgroundColor: 'purple'}}
                     visible = {this.state.visible}
                     onCancel = {this.handleCancel}
-                    footer = {[]}
+                    footer = {null}
                 >
                     <CountdownPage>
 
