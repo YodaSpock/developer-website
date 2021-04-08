@@ -31,7 +31,7 @@ export default class HomePage extends React.Component {
         return (
             <div className = "backgroundHome">
                 <Modal
-                    style ={{wordWrap: "initial", backgroundColor: 'purple'}}
+                    style ={{wordWrap: "initial"}}
                     visible = {this.state.visible}
                     onCancel = {this.handleCancel}
                     footer = {null}
