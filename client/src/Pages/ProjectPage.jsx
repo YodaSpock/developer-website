@@ -41,6 +41,12 @@ export default class ProjectPage extends React.Component {
             //TODO Fix the mobile version
             <div className = "backgroundProjects">
                 <Modal
+                    title = "Under Construction"
+                    visible = {true}
+                    footer = {[]}
+                >
+                </Modal>
+                <Modal
                     title = "Karla's Krazy House"
                     visible = {this.state.visible}
                     onCancel = {this.handleCancel}
@@ -48,6 +54,7 @@ export default class ProjectPage extends React.Component {
                 >
                     <HouseLandingPage/>
                 </Modal>
+                
                 {console.log(this.state.visible)}
                 <Row className = "centerAlign">
                     <Col xs = {12} md = {6}>

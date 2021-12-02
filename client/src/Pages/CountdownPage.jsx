@@ -8,7 +8,7 @@ export default class CountdownPage extends React.Component {
 
     
     todaysDate = new Date();
-    moveInDate = new Date(2021, 4, 16, 13);
+    moveInDate = new Date(2022, 9, 24, 13);
     render() {
         return (
             <div>

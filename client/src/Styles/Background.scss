@@ -16,6 +16,7 @@
     background: rgb(82,133,213);
     background: linear-gradient(0deg, rgba(82,133,213,1) 0%, rgba(255,255,255,1) 115%);
     padding-top: 1%;
+    height: max-content;
 }
 
 .backgroundOther{
@@ -23,9 +24,9 @@
     background: linear-gradient(0deg, rgba(82,133,213,1) 0%, rgba(255,255,255,1) 115%);
 }
 
-.ant-modal-body{ 
-    background-color: #B481EE;
-}
+// .ant-modal-body{ 
+//     background-color: #B481EE;
+// }
 
 .ant-modal-footer {
     background-color: #B481EE;
